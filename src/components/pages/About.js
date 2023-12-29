@@ -4,13 +4,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-import Logo from "./aman.jpg"
+import Logo from "../images/aman.jpg"
 
 export default function About() {
   return (
     <>
     <h1 className='text-3xl font-bold text-center pt-6'>About</h1>
-    <h3 className='text-2xl text-center pt-6 text-slate-600'>👋 Hi there! I am Aman Koahre.</h3>
+    <h3 className='text-lg text-center pt-6 text-slate-600'>👋 Hi there! I am Aman Koahre.</h3>
     <Card sx={{ maxWidth: 900, margin: 'auto', marginTop: 1, padding: { xs: 4, md: 8 } }}>
       <CardActionArea>
         <CardMedia

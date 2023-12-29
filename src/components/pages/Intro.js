@@ -1,5 +1,5 @@
 import React from 'react';
-import MyImage from "./aman3.png";
+import MyImage from "../images/aman3.png"
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
 import Skills from './Skills';
