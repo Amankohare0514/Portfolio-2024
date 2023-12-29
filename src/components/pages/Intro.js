@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <>
     <div>
-      <div className="flex flex-col items-center justify-center mt-12">
+      <div className="flex flex-col items-center justify-center mt-12 mb-12">
         <div className="w-[250px] h-[250px] rounded-full overflow-hidden shadow-lg  relative mb-6">
           <div className="absolute inset-0 "></div>
           <img src={MyImage} alt="My Photo" className="w-full h-full object-cover rounded-full shadow-lg" />
