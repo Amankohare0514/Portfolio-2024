@@ -22,7 +22,7 @@ export function NavbarDark() {
   return (
     <Navbar
       variant="gradient"
-      className="mx-auto bg-slate-400 text-black md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-md"
+      className="mx-auto bg-slate-100 text-black md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl"
       style={{ marginTop: "1rem", backdropFilter: "blur(8px)" }}
     >
       <div className="flex items-center justify-between w-full">
