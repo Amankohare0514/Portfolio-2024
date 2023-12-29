@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "./images/logo.png"
 import { Link } from "react-router-dom";
 import {
   Navbar,
@@ -25,12 +26,13 @@ export function NavbarDark() {
       style={{ marginTop: "1rem", backdropFilter: "blur(8px)" }}
     >
       <div className="flex items-center justify-between w-full">
-        {/* Replace the text with your logo */}
+        <Link to="/">
         <img
-          src="path/to/your/logo.png"
+          src={Logo}
           alt="Logo"
-          className="w-8 h-8 cursor-pointer"
+          className="w-[40px]  h-[40px] cursor-pointer"
         />
+        </Link>
 
         <div className="hidden md:flex gap-4">
           <Link to="/about">
@@ -51,6 +53,11 @@ export function NavbarDark() {
           <Link to="/skills">
             <Typography variant="subtitle2" className="cursor-pointer">
               Skills
+            </Typography>
+          </Link>
+          <Link to="/blogs">
+            <Typography variant="subtitle2" className="cursor-pointer">
+              Blogs
             </Typography>
           </Link>
           <Link to="/guest">
@@ -99,6 +106,11 @@ export function NavbarDark() {
             <Link to="/skills" className="block">
               <Typography variant="subtitle2" className="block">
                 Skills
+              </Typography>
+            </Link>
+            <Link to="/blogs" className="block">
+              <Typography variant="subtitle2" className="block">
+                Blogs
               </Typography>
             </Link>
             <Link to="/guest" className="block">
