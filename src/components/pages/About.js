@@ -21,8 +21,8 @@ export default function About() {
           alt="Aman Koahre"
         />
         <CardContent>
-          <Typography variant="h6" color="black">
-            I'm a MERN-stack developer in India. I am creative and passionate about design and technology
+          <Typography variant="h6" color="black" className='bg-white pt-4 hover:bg-white'>
+            I'm a FrontEnd developer in India. I am creative and passionate about design and technology
             so I always try to craft great-looking software products. Pursuing a Bachelor of Technology (B.Tech)
             in Information Technology from Barkatullah University, <span className='text-cyan-500'>Bhopal.</span> <br /> <br />
             A keen interest in playing Cricket. <br /> <br />

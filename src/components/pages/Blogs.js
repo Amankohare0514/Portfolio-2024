@@ -1,10 +1,12 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import PushPinIcon from '@mui/icons-material/PushPin';
+import {
+  Card,
+  CardBody,
+  Typography,
+} from "@material-tailwind/react";
 const Blog = [
   {
     title: "How to make a Resume For Freshers!",
@@ -39,15 +41,15 @@ export default function Blogs() {
       <hr className='mt-6 pb-8' />
       <div className="flex flex-wrap justify-center mx-auto max-w-2xl gap-10">
         {Blog.map((item, index) => (
-          <Card key={index} className="max-w-2xl w-full">
+          <Card key={index} className="max-w-4xl w-[800px] rounded-2xl">
             <CardMedia
               component="img"
               alt="youtube clone"
               height="140"
               image={item.image}
             />
-           <CardContent>
-            <hr className='mb-4 mt-2'/>
+            <CardContent>
+              <hr className='mb-4 mt-2' />
               <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
                 {item.title}
               </Typography>
@@ -55,7 +57,7 @@ export default function Blogs() {
                 {item.description}
               </Typography>
             </CardContent>
-            <hr className='mb-4 mt-2'/>
+            <hr className='mb-4 mt-2' />
             <a
               href={item.link}
               target="_blank"
@@ -66,6 +68,18 @@ export default function Blogs() {
             </a>
           </Card>
         ))}
+      </div>
+      <div className='flex justify-center items-center flex-col'>
+        <Card className="mt-6 w-[672px] h-[110px]  bg-cyan-100 rounded-lg">
+          <CardBody>
+            <Typography variant="h5" color="blue-gray" className="mb-2 pt-2 ml-4">
+              <PushPinIcon /> Pinned
+            </Typography>
+            <Typography className='ml-4 text-lg text-black'>
+            Hey there! You can check out more blog created by me by visiting my Medium profile. link
+            </Typography>
+          </CardBody>
+        </Card>
       </div>
     </>
   );

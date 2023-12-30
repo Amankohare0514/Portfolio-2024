@@ -15,13 +15,13 @@ const Experience = () => {
         <h1 className='text-3xl font-bold text-center pt-6'>Work Experience</h1>
         <h3 className='text-lg text-center pt-6 text-slate-600'>💥 Front-end specialist crafting visually appealing, responsive user interfaces.
         </h3>
-        <hr className='mt-6 pb-8' />
-        <Card className="flex mx-auto mt-auto mb-auto w-[380px] h-[510px] border-none">
+        <hr className='mt-6 pb-14' />
+        <Card className="flex mx-auto mt-auto mb-auto w-[420px] h-[510px] border">
           <CardHeader color="blue-gray" className="relative h-[260px] pt-1 pb-2">
             <img
               src="https://media.licdn.com/dms/image/C560BAQEgRZwF9uG6sg/company-logo_200_200/0/1652077590491?e=2147483647&v=beta&t=AW_ev-Rv2HzMs90lT8-6dyHBD7SWGYphkfvOHcm60n4"
               alt="card-image"
-              className='mx-auto mt-auto mb-auto h-[180px]'
+              className='mx-auto mt-auto mb-auto h-[180px] border-none'
             />
           </CardHeader>
           <CardBody>
@@ -36,11 +36,11 @@ const Experience = () => {
               • Significantly enhanced a dynamic web app using React.js, showcasing expertise in creating interactive and user-centric interfaces.
             </Typography>
             <IconButton aria-label="sss" href='https://salesqueen.org/'>
-              <LinkIcon  />
+              <LinkIcon />
             </IconButton>
           </CardBody>
         </Card>
-      </div> 
+      </div>
       <hr className='mt-8' />
       <Education />
     </>
