@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div className="flex justify-center items-center pt-12">
+        <div className="flex justify-center items-center pt-8">
             <div className="text-center">
                 <h1 className="text-3xl font-bold mb-4">Education</h1>
                 <h1 className="text-2xl font-bold mb-4">Barkatullah University Institute of Technology</h1>

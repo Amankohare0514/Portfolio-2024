@@ -18,8 +18,8 @@ const Contact = () => {
                     </span>
 
                     <h2 className="mt-4 text-base font-medium text-gray-800 ">Email</h2>
-                    <p className="mt-2 text-sm text-gray-500 ">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm text-blue-500 ">hello@merakiui.com</p>
+                    <p className="mt-2 text-sm text-gray-500 ">I'm always open to chat !!!</p>
+                    <p className="mt-2 text-sm text-blue-500 ">amankohare@gmail.com</p>
                 </div>
 
                 <div>
@@ -30,9 +30,9 @@ const Contact = () => {
                         </svg>
                     </span>
                     
-                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Live chat</h2>
-                    <p className="mt-2 text-sm text-gray-500 ">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm text-blue-500 ">Start new chat</p>
+                    <h2 className="mt-4 text-base font-medium text-gray-800 ">Location</h2>
+                    <p className="mt-2 text-sm text-gray-500 ">Dist. Khargone Madhya Pradesh</p>
+                    <p className="mt-2 text-sm text-blue-500 ">451220</p>
                 </div>
             </div>
 

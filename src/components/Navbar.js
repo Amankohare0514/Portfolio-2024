@@ -22,7 +22,7 @@ export function NavbarDark() {
   return (
     <Navbar
       variant="gradient"
-      className="mx-auto bg-slate-100 text-black md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl"
+      className="mx-auto bg-slate-50 text-black md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl"
       style={{ marginTop: "1rem", backdropFilter: "blur(8px)" }}
     >
       <div className="flex items-center justify-between w-full">
@@ -36,37 +36,37 @@ export function NavbarDark() {
 
         <div className="hidden md:flex gap-7 text-slate-400 font-bold">
           <Link to="/about">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               About
             </Typography>
           </Link>
           <Link to="/projects">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Projects
             </Typography>
           </Link>
           <Link to="/experience">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Experience
             </Typography>
           </Link>
           <Link to="/skills">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Skills
             </Typography>
           </Link>
           <Link to="/blogs">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Blogs
             </Typography>
           </Link>
           <Link to="/guest">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Guest
             </Typography>
           </Link>
           <Link to="/contact">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-700">
+            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               Contact
             </Typography>
           </Link>
