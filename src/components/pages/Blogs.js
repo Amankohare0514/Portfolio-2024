@@ -76,7 +76,7 @@ export default function Blogs() {
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-            Hey there! You can check out more blog created by me by visiting my Medium profile. link
+            Hey there! You can check out more blog created by me by visiting my Medium profile. <span className='text-cyan-600'><a href='https://medium.com/@amankohare'>link</a></span> 
             </Typography>
           </CardBody>
         </Card>
