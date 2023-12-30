@@ -10,8 +10,11 @@ const Skills = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-screen-md text-center mt-8">
-      <h2 className="text-3xl font-bold mb-4">Skills</h2>
+    <>
+     <h1 className='text-3xl font-bold text-center pt-6'>My Skills</h1>
+    <h3 className='text-lg text-center pt-6 text-slate-600'>👍Mastery unfolds where skills meet dedication's embrace.</h3>
+    <hr className='mt-6 pb-6' />
+    <div className="mx-auto max-w-screen-md text-center ">
       <div className="flex flex-wrap justify-center">
         {skillsList.map((skill, index) => (
           <button
@@ -23,6 +26,7 @@ const Skills = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

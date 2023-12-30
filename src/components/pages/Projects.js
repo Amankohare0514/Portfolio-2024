@@ -39,8 +39,9 @@ const Data = [
 const Projects = () => {
   return (
     <>
-      <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
-      <h3 className='text-lg text-center pb-8 pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
+      <h1 className='text-3xl font-bold text-center pt-6'>My Projects</h1>
+      <h3 className='text-lg text-center pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
+      <hr className='mt-6 pb-8' />
       <div className="flex flex-wrap justify-center mx-auto max-w-2xl gap-10">
         {Data.map((item, index) => (
           <Card key={index} className="max-w-2xl w-full">
