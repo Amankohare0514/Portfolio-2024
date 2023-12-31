@@ -22,35 +22,35 @@ const Blog = [
   },
   {
     title: "How to deploy website on vercel?",
-    description: "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
+    description: "Vercel is a cloud platform that provides a serverless deployment platform for frontend developers. It allows developers to deploy their web applications, websites, and serverless functions with ease. Vercel supports various frontend frameworks, including React, Vue.js, Angular, and more.",
     link: "https://medium.com/@amankohare/how-to-deploy-website-on-vercel-da6c54a184d6",
-    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GK8vBkCMyhB4sKe8xLNNIg.png"
+    image: "https://i.ytimg.com/vi/IHRU2ox5Jzw/maxresdefault.jpg"
   },
   {
     title: "How To Become Successful Web developer",
     description: "Becoming a successful web developer involves a combination of technical skills, continuous learning, and a proactive approach to personal and professional growth. Here are some steps to help you become a successful web developer.",
     link: "https://medium.com/@amankohare/how-to-become-successful-web-developer-f44874874e23",
-    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*V17ZOqLIb4QsU_PPNIBcEQ.jpeg"
+    image: "https://www.wallpapertip.com/wmimgs/160-1606283_web-developer-wallpaper.jpg"
   },
 ];
-export default function Blogs() {
+const Blogs = () => {
   return (
     <>
       <h1 className='text-3xl font-bold text-center pt-6'>My Blogs</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>Where words weave the tapestry of thoughts, connecting minds across the digital landscape ❤️.</h3>
       <hr className='mt-6 pb-8' />
-      <div className="flex flex-wrap justify-center mx-auto max-w-2xl gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 mx-auto max-w-screen-lg">
         {Blog.map((item, index) => (
-          <Card key={index} className="max-w-4xl w-[800px] rounded-2xl">
+          <Card key={index} className="max-w-2xl w-full rounded-2xl">
             <CardMedia
               component="img"
-              alt="youtube clone"
+              alt="blog"
               height="140"
               image={item.image}
             />
             <CardContent>
               <hr className='mb-4 mt-2' />
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold'}} className='text-2xl pb-2 text-black font-bold'>
                 {item.title}
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.2rem' }}>
@@ -70,13 +70,13 @@ export default function Blogs() {
         ))}
       </div>
       <div className='flex justify-center items-center flex-col'>
-        <Card className="mt-6 w-[672px] h-[110px]  bg-cyan-100 rounded-lg">
+      <Card className="mt-6 w-full md:w-[672px] h-[130px]   bg-cyan-100 rounded-lg">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2 pt-2 ml-4">
+            <Typography variant="h5" color="blue-gray" className="mb-2 pt-4 ml-4">
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-            Hey there! You can check out more blog created by me by visiting my Medium profile. <span className='text-cyan-600'><a href='https://medium.com/@amankohare'>link</a></span> 
+            Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is <span className='text-black font-medium'><a href='https://medium.com/@amankohare'>link</a></span> 
             </Typography>
           </CardBody>
         </Card>
@@ -84,3 +84,5 @@ export default function Blogs() {
     </>
   );
 };
+
+export default Blogs;

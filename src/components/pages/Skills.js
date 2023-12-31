@@ -36,27 +36,28 @@ const Skills = () => {
         </div>
       </div>
       <hr className='mt-6 pb-6' />
-      {/* {ProjectData section} */}
+      {/* ProjectData section */}
       <div className='flex justify-center items-center flex-col'>
-        <Card className="mt-6 w-[672px] h-[90px]  bg-cyan-100 rounded-lg">
+        <Card className="mt-6 w-full md:w-[672px] h-[110px]   bg-cyan-100 rounded-lg">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2 pt-2 ml-4">
-            <PushPinIcon/> Pinned
+            <Typography variant="h5" color="blue-gray" className="mb-2 pt-2 ml-4 md:pb-2">
+              <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-            Hey there! This is my recent Projects based on this Skills , <span className='text-cyan-900'><a href='https://github.com/Amankohare0514'>More Projects here.</a></span>
+              Hey there! Check out my recent projects based on these skills. <span className='text-black font-medium'><a href='https://github.com/Amankohare0514'>More Projects.</a></span>
             </Typography>
           </CardBody>
         </Card>
-        {ProjectData.map((skill, index) => (
-          <Link to={skill.link} key={index} className="mt-6">
-            <Card className="w-[672px] h-[100px] border hover:border-slate-700  rounded-lg">
+
+        {ProjectData.map((project, index) => (
+          <Link to={project.link} key={index} className="mt-6 w-full md:w-[672px]">
+            <Card className="border hover:border-slate-700 rounded-lg">
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2 mt-4 text-2xl font-bold text-center">
-                  {skill.icon} {skill.title}
+                  {project.icon} {project.title}
                 </Typography>
-                <Typography className='text-center'>
-                  {skill.description}
+                <Typography className='text-center mb-4'>
+                  {project.description}
                 </Typography>
               </CardBody>
             </Card>

@@ -34,7 +34,7 @@ export function NavbarDark() {
         />
         </Link>
 
-        <div className="hidden md:flex gap-7 text-slate-400 font-bold">
+        <div className="hidden md:flex gap-7 text-slate-500 font-medium">
           <Link to="/about">
             <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
               About

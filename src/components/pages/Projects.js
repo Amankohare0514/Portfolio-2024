@@ -18,7 +18,7 @@ const Data = [
   },
   {
     title: "My Tube",
-    description: "Led the development of My_tube, an advanced YouTube clone, implementing robust authentication for heightened security measures.",
+    description: "Led the development of My_tube, an advanced YouTube clone.",
     link: "https://github.com/Amankohare0514/my_tube",
     image: YouTube
   },
@@ -30,7 +30,7 @@ const Data = [
   },
   {
     title: "Github Finder",
-    description: "Find GitHub accounts and repositories with styling.",
+    description: "GitHub Finder is a web application that allows users to search for GitHub accounts and repositories.",
     link: "https://github.com/Amankohare0514/Github-Finder-with-styling",
     image: github
   },
@@ -42,9 +42,12 @@ const Projects = () => {
       <h1 className='text-3xl font-bold text-center pt-6'>My Projects</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
       <hr className='mt-6 pb-8' />
-      <div className="flex flex-wrap justify-center mx-auto max-w-2xl gap-10">
+
+      {/* Grid Container */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
+
         {Data.map((item, index) => (
-          <Card key={index} className="max-w-2xl w-full">
+          <Card key={index} className="max-w-2xl w-full" style={{ maxWidth: '500px', width: '100%' }}>
             <CardMedia
               component="img"
               alt="youtube clone"
@@ -71,6 +74,7 @@ const Projects = () => {
             </a>
           </Card>
         ))}
+
       </div>
       <a
         href="https://github.com/Amankohare0514"
