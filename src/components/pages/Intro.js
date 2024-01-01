@@ -1,28 +1,48 @@
 import React from 'react';
-import MyImage from "../images/aman3.png"
-import Button from '@mui/material/Button';
-import DownloadIcon from '@mui/icons-material/Download';
-const Intro = () => {
+import GitHubIcon from '@mui/icons-material/GitHub';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import aman from "../images/introimage.jpg";
+
+function Intro() {
+  const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
+
   return (
-    <>
-    <div>
-      <div className="flex flex-col items-center justify-center mt-12 mb-12">
-        <div className="w-[250px] h-[250px] rounded-full overflow-hidden shadow-lg  relative mb-6">
-          <div className="absolute inset-0 "></div>
-          <img src={MyImage} alt="My Photo" className="w-full h-full object-cover rounded-full shadow-lg" />
+    <div className="mx-auto max-w-screen-lg mt-12 p-6 bg-transparent rounded-xl" style={{ height: '700px' }}>
+      <div className="flex items-center justify-between">
+        <div className="flex space-x-4">
+          <div>
+            <h1 className="text-5xl font-bold" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>Aman Kohare</h1>
+            <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
+            <p className="text-xl mt-2" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>
+              I'm a Mern-stack developer in <span className="text-sky-500">India.</span>  <br/>
+              I am creative and passionate about design and technology  <br/>
+            </p>
+            <div className="flex mt-6 space-x-3">
+              <GitHubIcon className="text-white w-8 h-8" />
+              <InstagramIcon className="text-white w-8 h-8" />
+              <LinkedInIcon className="text-white w-8 h-8" />
+              <TwitterIcon className="text-white w-8 h-8" />
+            </div>
+          </div>
         </div>
-        <div className="text-center items-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">Aman Kohare</h1>
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-500 mb-4">Front end developer • React developer</h2>
-          <h3 className="text-gray-800 mb-4 text-lg">I'm a self-taught programmer on a quest to explore the exciting world of technology.</h3>
-          <Button variant="outlined" startIcon={<DownloadIcon />}>
-            Resume
-          </Button>
+        <div className="hidden md:block w-[320px] h-[320px] overflow-hidden rounded-full border-4 border-white">
+          <img
+            alt="Profile"
+            className="object-cover w-full h-full"
+            height="900"
+            src={aman}
+            style={{
+              aspectRatio: "1/1",
+              objectFit: "cover",
+            }}
+            width="900"
+          />
         </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 }
 
-export default Intro;
+export default Intro

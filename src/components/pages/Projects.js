@@ -76,14 +76,6 @@ const Projects = () => {
         ))}
 
       </div>
-      <a
-        href="https://github.com/Amankohare0514"
-        target="_blank"
-        rel="noopener"
-        className="flex items-center mt-5 mb-4 justify-center bg-transparent text-black border h-10 w-32 rounded-full mx-auto hover:bg-slate-300"
-      >
-        More Projects
-      </a>
       <hr />
     </>
   );

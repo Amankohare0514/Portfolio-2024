@@ -70,9 +70,9 @@ const Blogs = () => {
         ))}
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Card className="mt-6 w-full md:w-[672px] h-[130px]   bg-cyan-100 rounded-lg">
+      <Card className="mt-6 w-full md:w-[672px] h-[140px]   bg-cyan-100 rounded-lg">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2 pt-4 ml-4">
+            <Typography variant="h5" color="blue-gray" className="mb-2 ml-4">
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>

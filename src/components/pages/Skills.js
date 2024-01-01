@@ -38,13 +38,13 @@ const Skills = () => {
       <hr className='mt-6 pb-6' />
       {/* ProjectData section */}
       <div className='flex justify-center items-center flex-col'>
-        <Card className="mt-6 w-full md:w-[672px] h-[110px]   bg-cyan-100 rounded-lg">
+        <Card className="mt-6 w-full md:w-[672px] h-[130px] bg-cyan-100 rounded-lg">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2 pt-2 ml-4 md:pb-2">
+            <Typography variant="h5" color="blue-gray" className="mb-2  ml-4 md:pb-2">
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-              Hey there! Check out my recent projects based on these skills. <span className='text-black font-medium'><a href='https://github.com/Amankohare0514'>More Projects.</a></span>
+              Hey there! Check out my recent projects based on these skills. <span className='text-black font-medium'><a href='https://github.com/Amankohare0514'>here</a></span>
             </Typography>
           </CardBody>
         </Card>
