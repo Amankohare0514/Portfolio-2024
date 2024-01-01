@@ -47,15 +47,16 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
 
         {Data.map((item, index) => (
-          <Card key={index} className="max-w-2xl w-full" style={{ maxWidth: '500px', width: '100%' }}>
+          <Card key={index} className="max-w-2xl cursor-pointer w-full" style={{ maxWidth: '500px', width: '100%' }}>
             <CardMedia
               component="img"
               alt="youtube clone"
               height="140"
               image={item.image}
+              className=' cursor-pointer'
             />
             <CardContent>
-              <hr className='mb-4 mt-2' />
+              <hr className='mb-4  cursor-pointer mt-2' />
               <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
                 {item.title}
               </Typography>
