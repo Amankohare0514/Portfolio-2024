@@ -9,7 +9,7 @@ const Education = () => {
                 <h1 className="text-lg text-gray-600 mb-2">Bachelor of Technology | Information Technology</h1>
                 <p className=" text-gray-700">
                     Barkatullah University Institute of Technology is a public engineering college located in Bhopal. <br />
-                    It is one of the 15 government engineering colleges in <span className='text-cyan-600 underline'>Madhya Pradesh</span>.
+                    It is one of the 15 government engineering colleges in Madhya Pradesh.
                 </p>
             </div>
         </div>
