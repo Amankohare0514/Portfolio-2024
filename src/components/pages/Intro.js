@@ -16,8 +16,8 @@ function Intro() {
             <h1 className="text-5xl font-bold" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>Aman Kohare</h1>
             <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
             <p className="text-xl mt-2" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>
-              I'm a Mern-stack developer in <span className="text-sky-500">India.</span>  <br/>
-              I am creative and passionate about design and technology  <br/>
+              I'm a Frontend developer in <span className="text-sky-500">India.</span>  <br/>
+              I am creative and passionate about design and technology. <br/>
             </p>
             <div className="flex mt-6 space-x-3">
               <GitHubIcon className="text-white w-8 h-8" />
@@ -27,7 +27,7 @@ function Intro() {
             </div>
           </div>
         </div>
-        <div className="hidden md:block w-[320px] h-[320px] overflow-hidden rounded-full border-4 border-white">
+        <div className="hidden md:block w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-white">
           <img
             alt="Profile"
             className="object-cover w-full h-full"
@@ -42,6 +42,7 @@ function Intro() {
         </div>
       </div>
     </div>
+    
   );
 }
 
