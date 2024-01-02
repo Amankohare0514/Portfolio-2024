@@ -83,7 +83,6 @@ export function NavbarDark() {
           <MenuIcon className="h-6 w-6" />
         </IconButton>
 
-       
         {isMenuOpen && (
           <div
             className="fixed top-12 right-4 h-300 w-200 bg-white shadow-md p-4 z-30"

@@ -38,9 +38,9 @@ const Skills = () => {
       <hr className='mt-6 pb-6' />
       {/* ProjectData section */}
       <div className='flex justify-center items-center flex-col'>
-        <Card className="mt-6 w-full md:w-[672px] h-[130px] bg-cyan-100 rounded-lg">
+        <Card className="mt-4 w-full md:w-[672px] h-[120px] bg-cyan-100 rounded-lg">
           <CardBody>
-            <Typography variant="h5" color="blue-gray" className="mb-2  ml-4 md:pb-2">
+            <Typography variant="h5" color="blue-gray" className="mb-2 ml-2 md:pb-2">
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
@@ -50,10 +50,10 @@ const Skills = () => {
         </Card>
 
         {ProjectData.map((project, index) => (
-          <Link to={project.link} key={index} className="mt-6 w-full md:w-[672px]">
-            <Card className="border hover:border-slate-700 rounded-lg">
+          <Link to={project.link} key={index} className="mt-4 w-full md:w-[672px]">
+            <Card className="border h-[120px] hover:border-slate-700 rounded-lg">
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2 mt-4 text-2xl font-bold text-center">
+                <Typography variant="h5" color="blue-gray" className="mb-2  text-2xl font-bold text-center">
                   {project.icon} {project.title}
                 </Typography>
                 <Typography className='text-center mb-4'>

@@ -76,7 +76,7 @@ const Blogs = () => {
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-            Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is <span className='text-black font-medium'><a href='https://medium.com/@amankohare'>link</a></span> 
+            Hey there! You can check out more blog created by me by visiting my Medium profile.<span className='text-black font-medium'><a href='https://medium.com/@amankohare'>here</a></span> 
             </Typography>
           </CardBody>
         </Card>
