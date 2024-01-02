@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Logo from "./images/logo.png"
 import { Link } from "react-router-dom";
-import InfoIcon from '@mui/icons-material/Info';
-import BookmarkAddedIcon from '@mui/icons-material/BookmarkAdded';
-import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
-import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
-import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
-import CreateIcon from '@mui/icons-material/Create';
-import BarChartIcon from '@mui/icons-material/BarChart';
+import PermContactCalendarOutlinedIcon from '@mui/icons-material/PermContactCalendarOutlined';
+import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
+import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
+import CommentOutlinedIcon from '@mui/icons-material/CommentOutlined';
+import DynamicFormOutlinedIcon from '@mui/icons-material/DynamicFormOutlined';
+import EarbudsBatteryOutlinedIcon from '@mui/icons-material/EarbudsBatteryOutlined';
+import BeenhereOutlinedIcon from '@mui/icons-material/BeenhereOutlined';
 import {
   Navbar,
   Typography,
@@ -37,7 +37,7 @@ export function NavbarDark() {
         <img
           src={Logo}
           alt="Logo"
-          className="w-[40px]  h-[40px] cursor-pointer"
+          className="w-[40px] ml-4  h-[40px] cursor-pointer"
         />
         </Link>
 
@@ -92,42 +92,42 @@ export function NavbarDark() {
 
         {isMenuOpen && (
           <div
-            className="fixed top-12 right-4 h-[250px] w-[140px] bg-white shadow-md p-4 z-30"
+            className="fixed top-12 right-6 h-[280px] w-[160px] bg-white shadow-md p-4 z-30"
             onClick={closeMenu}
           >
             <Link to="/about" className="block">
-              <Typography variant="subtitle2" className="block pt-1 justify-center">
-               About <InfoIcon/>
+              <Typography variant="subtitle2" className="block pt-2 justify-center">
+              <InfoOutlinedIcon/> About 
               </Typography>
             </Link>
             <Link to="/projects" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Projects <BookmarkAddedIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <BeenhereOutlinedIcon/>  Projects 
               </Typography>
             </Link>
             <Link to="/experience" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Experience <HourglassBottomIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <EarbudsBatteryOutlinedIcon/>  Experience 
               </Typography>
             </Link>
             <Link to="/skills" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Skills <BarChartIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <DynamicFormOutlinedIcon/> Skills 
               </Typography>
             </Link>
             <Link to="/blogs" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Blogs <CreateIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <CreateOutlinedIcon/> Blogs
               </Typography>
             </Link>
             <Link to="/guest" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Guest <QuestionAnswerIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <CommentOutlinedIcon/> Guest 
               </Typography>
             </Link>
             <Link to="/contact" className="block">
-              <Typography variant="subtitle2" className="block pt-1">
-                Contact <PermContactCalendarIcon/>
+              <Typography variant="subtitle2" className="block pt-2">
+              <PermContactCalendarOutlinedIcon/>  Contact 
               </Typography>
             </Link>
           </div>

@@ -17,10 +17,10 @@ export default function Footer() {
             <Link to="/experience" className="text-gray-500 hover:text-gray-700"> Experience</Link>
           </div>
           <div className="flex flex-col font-semibold space-y-2">
-          <Link to="/skills" className="text-gray-500 hover:text-gray-700"> Skills</Link>
-          <Link to="/blogs" className="text-gray-500 hover:text-gray-700"> Blogs</Link>
-          <Link to="/guest" className="text-gray-500 hover:text-gray-700"> Guest</Link>
-          <Link to="/contact" className="text-gray-500 hover:text-gray-700"> Contact</Link>
+            <Link to="/skills" className="text-gray-500 hover:text-gray-700"> Skills</Link>
+            <Link to="/blogs" className="text-gray-500 hover:text-gray-700"> Blogs</Link>
+            <Link to="/guest" className="text-gray-500 hover:text-gray-700"> Guest</Link>
+            <Link to="/contact" className="text-gray-500 hover:text-gray-700"> Contact</Link>
           </div>
           <div className="flex flex-col font-semibold space-y-2">
             <a className="text-gray-500 hover:text-gray-700" href="https://github.com/Amankohare0514/Portfolio-2024">

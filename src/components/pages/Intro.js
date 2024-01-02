@@ -4,46 +4,48 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import aman from "../images/introimage.jpg";
-
+import Skill from "./Skill"
 function Intro() {
   const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
 
   return (
-    <div className="mx-auto max-w-screen-lg mt-12 p-6 bg-transparent rounded-xl" style={{ height: '700px' }}>
-      <div className="flex items-center justify-between">
-        <div className="flex space-x-4">
-          <div>
-            <h1 className="text-5xl font-bold" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>Aman Kohare</h1>
-            <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
-            <p className="text-xl mt-2" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>
-              I'm a Frontend developer in <span className="text-sky-500">India.</span>  <br />
-              I am creative and passionate about design and technology. <br />
-            </p>
-          <br/>
-            <div className="flex mt-6 space-x-3">
-           <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-800 w-8 h-8" /></a>  
-            <a href='https://www.instagram.com/aman__0514/'> <InstagramIcon className="text-gray-800 w-8 h-8" /></a>
-             <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'> <LinkedInIcon className="text-gray-800 w-8 h-8" /></a>
-            <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-800 w-8 h-8" /></a>
+    <>
+      <div className="mx-auto max-w-screen-lg mt-12 p-6 bg-transparent rounded-xl" style={{ height: '390px' }}>
+        <div className="flex items-center justify-between">
+          <div className="flex space-x-4">
+            <div>
+              <h1 className="text-5xl font-bold" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>Aman Kohare</h1>
+              <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
+              <p className="text-xl mt-2" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                I'm a Frontend developer in <span className="text-sky-500">India.</span>  <br />
+                I am creative and passionate about design and technology. <br />
+              </p>
+              <br />
+              <div className="flex mt-6 space-x-3">
+                <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-800 w-8 h-8" /></a>
+                <a href='https://www.instagram.com/aman__0514/'> <InstagramIcon className="text-gray-800 w-8 h-8" /></a>
+                <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'> <LinkedInIcon className="text-gray-800 w-8 h-8" /></a>
+                <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-800 w-8 h-8" /></a>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="hidden md:block w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-white">
-          <img
-            alt="Profile"
-            className="object-cover w-full h-full"
-            height="900"
-            src={aman}
-            style={{
-              aspectRatio: "1/1",
-              objectFit: "cover",
-            }}
-            width="900"
-          />
+          <div className="hidden md:block w-[300px] h-[300px] overflow-hidden rounded-full border-4 border-white">
+            <img
+              alt="Profile"
+              className="object-cover w-full h-full"
+              height="300"
+              src={aman}
+              style={{
+                aspectRatio: "1/1",
+                objectFit: "cover",
+              }}
+              width="300"
+            />
+          </div>
         </div>
       </div>
-    </div>
-
+      <Skill/>
+    </>
   );
 }
 
