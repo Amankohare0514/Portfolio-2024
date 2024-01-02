@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import Logo from "./images/logo.png"
 import { Link } from "react-router-dom";
+import InfoIcon from '@mui/icons-material/Info';
+import BookmarkAddedIcon from '@mui/icons-material/BookmarkAdded';
+import HourglassBottomIcon from '@mui/icons-material/HourglassBottom';
+import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
+import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
+import CreateIcon from '@mui/icons-material/Create';
+import BarChartIcon from '@mui/icons-material/BarChart';
 import {
   Navbar,
   Typography,
@@ -85,42 +92,42 @@ export function NavbarDark() {
 
         {isMenuOpen && (
           <div
-            className="fixed top-12 right-4 h-300 w-200 bg-white shadow-md p-4 z-30"
+            className="fixed top-12 right-4 h-[250px] w-[140px] bg-white shadow-md p-4 z-30"
             onClick={closeMenu}
           >
             <Link to="/about" className="block">
-              <Typography variant="subtitle2" className="block">
-                About
+              <Typography variant="subtitle2" className="block pt-1 justify-center">
+               About <InfoIcon/>
               </Typography>
             </Link>
             <Link to="/projects" className="block">
-              <Typography variant="subtitle2" className="block">
-                Projects
+              <Typography variant="subtitle2" className="block pt-1">
+                Projects <BookmarkAddedIcon/>
               </Typography>
             </Link>
             <Link to="/experience" className="block">
-              <Typography variant="subtitle2" className="block">
-                Experience
+              <Typography variant="subtitle2" className="block pt-1">
+                Experience <HourglassBottomIcon/>
               </Typography>
             </Link>
             <Link to="/skills" className="block">
-              <Typography variant="subtitle2" className="block">
-                Skills
+              <Typography variant="subtitle2" className="block pt-1">
+                Skills <BarChartIcon/>
               </Typography>
             </Link>
             <Link to="/blogs" className="block">
-              <Typography variant="subtitle2" className="block">
-                Blogs
+              <Typography variant="subtitle2" className="block pt-1">
+                Blogs <CreateIcon/>
               </Typography>
             </Link>
             <Link to="/guest" className="block">
-              <Typography variant="subtitle2" className="block">
-                Guest
+              <Typography variant="subtitle2" className="block pt-1">
+                Guest <QuestionAnswerIcon/>
               </Typography>
             </Link>
             <Link to="/contact" className="block">
-              <Typography variant="subtitle2" className="block">
-                Contact
+              <Typography variant="subtitle2" className="block pt-1">
+                Contact <PermContactCalendarIcon/>
               </Typography>
             </Link>
           </div>

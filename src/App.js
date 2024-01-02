@@ -9,7 +9,7 @@ import Skills from './components/pages/Skills';
 import Blogs from './components/pages/Blogs';
 import Guest from './components/pages/Guest';
 import Contact from './components/pages/Contact';
-import {FooterWithLogo} from './components/Footer';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/guest" element={<Guest />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <FooterWithLogo />
+      <Footer />
     </Router>
   );
 };

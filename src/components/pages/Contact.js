@@ -2,6 +2,7 @@ import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 export default function Contact() {
     return (
@@ -10,7 +11,7 @@ export default function Contact() {
             <h3 className='text-lg text-center pt-6 text-slate-600'>😊 I love it when you want to contact me</h3>
             <hr className='mt-6 mb-8' />
             <div className="flex items-center justify-center">
-                <div className="max-w-5xl w-[1024px] pl-4 pr-4 mx-auto border-none rounded-lg ml-auto">
+                <div className="max-w-5xl w-[1024px] pl-2 pr-2 mx-auto border-none rounded-lg ml-auto">
                     <p className="mb-6 text-xl text-gray-800">I'm always open to chat, so please don't hesitate to contact me!</p>
                     <p className="mb-6 text-xl text-gray-800">
                         Anyways, please <span className="text-blue-500">don't just say hello</span>.
@@ -30,8 +31,9 @@ export default function Contact() {
                             Ask me Anything <span className='font-bold pl-16 text-gray-500 hover:text-lime-400'><a href='https://github.com/Amankohare0514'>on GitHub</a></span>
                         </p>
                     </div>
+                    <br/>
                     <div className="max-w-5xl h-[160px] p-6 border border-gray-200 hover:border-black rounded-lg flex items-center">
-                        <div className="flex-grow">
+                        <div className="flex-grow mt-4">
                             <h2 className="text-2xl font-semibold mb-2">Aman Kohare</h2>
                             <p className="text-gray-700 mb-4">Front end  developer</p>
                             <button className="mb-4 border h-10 w-28 hover:text-cyan-500 hover:bg-gray-100">Resume</button>
@@ -40,6 +42,7 @@ export default function Contact() {
                         <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-600" /></a>
                          <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'><LinkedInIcon className="text-gray-600" /></a>  
                           <a href='https://www.instagram.com/aman__0514/'><InstagramIcon className="text-gray-600" /></a> 
+                          <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-600" /></a>
                         </div>
                     </div>
                 </div>

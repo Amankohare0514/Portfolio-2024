@@ -50,7 +50,7 @@ const Blogs = () => {
             />
             <CardContent>
               <hr className='mb-4 mt-2' />
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold'}} className='text-2xl pb-2 text-black font-bold'>
+              <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }} className='text-2xl pb-2 text-black font-bold'>
                 {item.title}
               </Typography>
               <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.2rem' }}>
@@ -70,13 +70,13 @@ const Blogs = () => {
         ))}
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Card className="mt-6 w-full md:w-[672px] h-[140px]   bg-cyan-100 rounded-lg">
+        <Card className="mt-6 w-full md:w-[672px] h-[140px] bg-cyan-100 rounded-lg">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2 ml-4">
               <PushPinIcon /> Pinned
             </Typography>
             <Typography className='ml-4 text-lg text-black'>
-            Hey there! You can check out more blog created by me by visiting my Medium profile.<span className='text-black font-medium'><a href='https://medium.com/@amankohare'>here</a></span> 
+              Hey there! You can check out more blog created by me by visiting my Medium profile.<span className='text-black font-medium'><a href='https://medium.com/@amankohare'>here</a></span>
             </Typography>
           </CardBody>
         </Card>
