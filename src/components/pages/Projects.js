@@ -103,7 +103,7 @@ const Projects = () => {
         ))}
       </div>
       <div className='flex ml-2 mb-8 mt-8  mr-2 justify-center items-center flex-col'>
-        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-blue-200 via-red-200 to-yellow-200 p-4 shadow-xl mx-4 md:mx-0">
+        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-blue-50 via-red-100 to-yellow-100 p-4 shadow-xl mx-4 md:mx-0">
           <div className="flex items-center space-x-2">
             <PushPinIcon className="text-gray-700" />
             <span className="font-semibold">Pinned</span>
