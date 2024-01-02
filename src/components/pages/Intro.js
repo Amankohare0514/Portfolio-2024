@@ -5,6 +5,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import aman from "../images/introimage.jpg";
 import Skill from "./Skill"
+import ProjectData from './Project';
+import {
+  Card,
+  CardBody,
+  Typography,
+} from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
+import Blogs from './Blogs';
 function Intro() {
   const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
 
@@ -44,7 +52,29 @@ function Intro() {
           </div>
         </div>
       </div>
-      <Skill/>
+      <Skill />
+      <hr className='mt-6'/>
+      <div className='mt-2 '>
+      <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
+        {ProjectData.map((project, index) => (
+          <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 hover:border-black items-center flex-col">
+            <Card className="w-full bg-white hover:border-black max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2  text-2xl font-bold text-center">
+                  {project.icon} {project.title}
+                </Typography>
+                <Typography className='text-center mb-4'>
+                  {project.description}
+                </Typography>
+              </CardBody>
+            </Card>
+          </Link>
+        ))}
+      </div>
+      <hr className='mt-8'/>
+      <div className='mt-4 '>
+      <Blogs/>
+      </div>
     </>
   );
 }

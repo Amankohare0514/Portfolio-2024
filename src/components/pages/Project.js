@@ -19,7 +19,7 @@ const ProjectData = [
       description: "Find GitHub accounts and repositories with styling.",
       icon: <PersonSearchIcon className="h-8 w-8" />,
       link: "https://github.com/Amankohare0514/Github-Finder-with-styling",
-    },
+    }
   ];
 
   export default ProjectData;

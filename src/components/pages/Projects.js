@@ -1,14 +1,17 @@
 import React from 'react';
 import Card from '@mui/material/Card';
+import PushPinIcon from '@mui/icons-material/PushPin';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
+import dark from "../images/dark.png"
 import YouTube from "../images/youtube.png";
 import github from "../images/github.png";
 import reform from "../images/reform.png";
 import smsystem from "../images/smsystem.png";
-
+import draw from "../images/draw.jpg"
+import IMDB from "../images/IMDB.png"
+import Quizy from "../images/Quizy.png"
 const Data = [
   {
     title: "Reform",
@@ -34,8 +37,31 @@ const Data = [
     link: "https://github.com/Amankohare0514/Github-Finder-with-styling",
     image: github
   },
+  {
+    title: "SnAx DaRk ThEme",
+    description: "Dark theme which surpasses dark themes like ayu, dracula, night owl, etc.",
+    link: "https://marketplace.visualstudio.com/items?itemName=AmanKohare5.snax-dark-theme",
+    image: dark
+  },
+  {
+    title: "Right Draw",
+    description: "RightNowDraw , build with React library for creating whiteboards and other infinite canvas experiences.",
+    link: "https://github.com/Amankohare0514/RightDraw",
+    image: draw
+  },
+  {
+    title: "IMDB Clone",
+    description: "An IMDb clone, providing a comprehensive database of films, TV shows, and celebrities, offering users a seamless platform for exploring, rating, and reviewing their favorite entertainment content.",
+    link: "https://github.com/Amankohare0514/IMDB-CLONE",
+    image: IMDB
+  },
+  {
+    title: "Quiz-App",
+    description: "A Quiz-App clone offering an engaging and interactive platform for users to test their knowledge, featuring diverse quiz categories, real-time scoring, and a user-friendly interface for an enjoyable quiz experience.",
+    link: "https://github.com/Amankohare0514/Quiz-App",
+    image: Quizy
+  },
 ];
-
 const Projects = () => {
   return (
     <>
@@ -75,9 +101,19 @@ const Projects = () => {
             </a>
           </Card>
         ))}
-
       </div>
-      <hr />
+      <div className='flex ml-2 mb-8 mt-8  mr-2 justify-center items-center flex-col'>
+        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-blue-200 via-red-200 to-yellow-200 p-4 shadow-xl mx-4 md:mx-0">
+          <div className="flex items-center space-x-2">
+            <PushPinIcon className="text-gray-700" />
+            <span className="font-semibold">Pinned</span>
+          </div>
+          <h6 className="mt-2 text-gray-700">
+          Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
+          <a className='text-black' href='https://github.com/Amankohare0514'> here</a>
+          </h6>
+        </div>
+      </div>
     </>
   );
 };
