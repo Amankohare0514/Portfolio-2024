@@ -23,7 +23,7 @@ import Education from "./Education"
             </li>
           </ul>
           <div className="flex items-center space-x-2 mt-4">
-            <span className="text-gray-700">SSS</span>
+            <span className="text-gray-700"><a href="https://salesqueen.org/">SSS</a></span>
           </div>
         </div>
         <div>
@@ -41,12 +41,12 @@ import Education from "./Education"
            
           </ul>
           <div className="flex items-center space-x-2 mt-4">
-            <span className="text-gray-700">CodeSoft</span>
+            <span className="text-gray-700"><a href="https://codsoft.in/">CodeSoft</a></span>
           </div>
         </div>
         <div>
           <h3 className="text-xl font-semibold mb-2">
-            Web Developer Intern at CodeClause  – Remote - Pune ,India
+            Web Developer Intern at CodeClause  – Intern - Pune ,India
           </h3>
           <p className="text-gray-600 mb-4">April 2023 – July 2023</p>
           <ul className="list-disc pl-5 space-y-2">
@@ -64,7 +64,7 @@ import Education from "./Education"
             </li>
           </ul>
           <div className="flex items-center space-x-2 mt-4">
-            <span className="text-gray-700">CodeClause</span>
+            <span className="text-gray-700"><a href="https://internship.codeclause.com/">CodeClause</a></span>
           </div>
         </div>
       </div>

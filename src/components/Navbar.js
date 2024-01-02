@@ -75,9 +75,10 @@ export function NavbarDark() {
         {/* Mobile Menu Button */}
         <IconButton
           variant="text"
-          color="white"
-          className="md:hidden"
+          color="black"
+          className="md:hidden pr-6"
           onClick={toggleMenu}
+         
         >
           <MenuIcon className="h-6 w-6" />
         </IconButton>
