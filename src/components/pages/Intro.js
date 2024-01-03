@@ -15,18 +15,15 @@ import { Link } from 'react-router-dom';
 import Blog from './Blog';
 
 function Intro() {
-
-  const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
-
   return (
     <>
       <div className="mx-auto max-w-screen-lg mt-12 p-6 bg-transparent rounded-xl" style={{ height: '390px' }}>
         <div className="flex items-center justify-between">
           <div className="flex space-x-4">
             <div>
-              <h1 className="text-5xl font-bold" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>Aman Kohare</h1>
+              <h1 className="text-5xl font-bold text-black" >Aman Kohare</h1>
               <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
-              <p className="text-xl mt-2" style={{ backgroundImage: textColorGradient, WebkitBackgroundClip: 'text', color: 'transparent' }}>
+              <p className="text-xl mt-2 text-gray-800">
                 I'm a Frontend developer in <span className="text-sky-500">India.</span>  <br />
                 I am creative and passionate about design and technology. <br />
               </p>

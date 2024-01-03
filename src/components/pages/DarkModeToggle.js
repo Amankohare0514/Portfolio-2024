@@ -8,15 +8,14 @@ const DarkModeToggle = () => {
 
   const handleToggleDarkMode = () => {
     toggleDarkMode();
-    // Additional logic if needed
   };
 
   return (
     <div onClick={handleToggleDarkMode} className="cursor-pointer">
       {darkMode ? (
-        <SunIcon className="h-6 w-6 text-yellow-500" />
+        <SunIcon className="h-6 w-6 text-white" />
       ) : (
-        <MoonIcon className="h-6 w-6 text-gray-500" />
+        <MoonIcon className="h-6 w-6 text-gray-700" />
       )}
     </div>
   );

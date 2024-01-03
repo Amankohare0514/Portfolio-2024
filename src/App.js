@@ -10,9 +10,7 @@ import Blogs from './components/pages/Blogs';
 import Guest from './components/pages/Guest';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
-import { useDarkMode } from "./components/pages/DarkModeContext"
 const App = () => {
-  const { darkMode } = useDarkMode();
   return (
     <Router>
       <NavbarDark />

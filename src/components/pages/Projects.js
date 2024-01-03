@@ -73,7 +73,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
 
         {Data.map((item, index) => (
-          <Card key={index} className="max-w-2xl cursor-pointer w-full" style={{ maxWidth: '500px', width: '100%' }}>
+          <Card key={index} className="max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95" style={{ maxWidth: '500px', width: '100%' }}>
             <CardMedia
               component="img"
               alt="youtube clone"
@@ -109,8 +109,8 @@ const Projects = () => {
             <span className="font-semibold">Pinned</span>
           </div>
           <h6 className="mt-2 text-gray-700">
-          Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
-          <a className='text-black' href='https://github.com/Amankohare0514'> here</a>
+            Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
+            <a className='text-black' href='https://github.com/Amankohare0514'> here</a>
           </h6>
         </div>
       </div>
