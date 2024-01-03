@@ -11,11 +11,9 @@ import Guest from './components/pages/Guest';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
 import { useDarkMode } from "./components/pages/DarkModeContext"
-import "./App.css"
 const App = () => {
   const { darkMode } = useDarkMode();
   return (
-    <div className={`body ${darkMode ? 'dark' : 'light'}`}>
     <Router>
       <NavbarDark />
       <Routes>
@@ -30,7 +28,6 @@ const App = () => {
       </Routes>
       <Footer />
     </Router>
-    </div>
   );
 };
 
