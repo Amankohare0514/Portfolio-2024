@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -13,23 +13,13 @@ import {
 } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
 import Blog from './Blog';
-import "../styles/Intro.css"
 function Intro() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setIsVisible(true);
-    }, 500);
-
-    return () => clearTimeout(timeout);
-  }, []);
+  
 
   const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
 
   return (
     <>
-    <div className={`intro-container transform ${isVisible ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className="mx-auto max-w-screen-lg mt-12 p-6 bg-transparent rounded-xl" style={{ height: '390px' }}>
         <div className="flex items-center justify-between">
           <div className="flex space-x-4">
@@ -63,7 +53,6 @@ function Intro() {
             />
           </div>
         </div>
-      </div>
       </div>
       <Skill />
       <hr className='mt-6'/>
