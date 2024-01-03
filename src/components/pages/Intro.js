@@ -13,8 +13,8 @@ import {
 } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
 import Blog from './Blog';
+
 function Intro() {
-  
 
   const textColorGradient = 'linear-gradient(90deg, #000, #808080)';
 
