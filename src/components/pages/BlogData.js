@@ -23,6 +23,18 @@ const BlogData = [
       link: "https://medium.com/@amankohare/how-to-become-successful-web-developer-f44874874e23",
       image: "https://www.wallpapertip.com/wmimgs/160-1606283_web-developer-wallpaper.jpg"
     },
+    {
+      title: "Transfer data from an Android smartphone to an iPhone",
+      description: "If you buy an iPhone, and before that you had an Android smartphone, then transferring data manually is very long and difficult. But there is a way to transfer everything in a few minutes: from contacts and messages to videos and apps.",
+      link: "https://medium.com/@amankohare/transfer-data-from-an-android-smartphone-to-an-iphone-5bd755fd7e46",
+      image: "https://static1.makeuseofimages.com/wp-content/uploads/2019/05/iphone-dark-mode-apps.jpg"
+    },
+    {
+      title: "How to become mern stack developer",
+      description: "To become a MERN (MongoDB, Express.js, React.js, Node.js) stack developer, you’ll need to follow a structured learning path and gain practical experience. Here’s a step-by-step guide to help you get started....",
+      link: "https://medium.com/@amankohare/how-to-become-mern-stack-developer-b90ff2301cd3",
+      image: "https://wallpaperbat.com/img/820041-mern-stack-wallpaper.jpg"
+    },
   ];
 
   export default BlogData

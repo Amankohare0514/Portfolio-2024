@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+#{
+    background: linear-gradient(to right, rgb(239, 239, 239), white, rgb(254, 254, 254));
+}

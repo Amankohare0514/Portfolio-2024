@@ -48,37 +48,37 @@ export function NavbarDark() {
 
         <div className="hidden md:flex gap-7 text-slate-500 font-medium">
           <Link to="/about">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               About
             </Typography>
           </Link>
           <Link to="/projects">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Projects
             </Typography>
           </Link>
           <Link to="/experience">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Experience
             </Typography>
           </Link>
           <Link to="/skills">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Skills
             </Typography>
           </Link>
           <Link to="/blogs">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Blogs
             </Typography>
           </Link>
           <Link to="/guest">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Guest
             </Typography>
           </Link>
           <Link to="/contact">
-            <Typography variant="subtitle2" className="cursor-pointer hover:text-slate-900">
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
               Contact
             </Typography>
           </Link>
@@ -103,37 +103,37 @@ export function NavbarDark() {
               onClick={closeMenu}
             >
               <Link to="/about" className="block">
-                <Typography variant="subtitle2" className="block pt-2 justify-center">
+                <Typography variant="h2" className="block pt-2 justify-center">
                   <InfoOutlinedIcon /> About
                 </Typography>
               </Link>
               <Link to="/projects" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <BeenhereOutlinedIcon />  Projects
                 </Typography>
               </Link>
               <Link to="/experience" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <EarbudsBatteryOutlinedIcon />  Experience
                 </Typography>
               </Link>
               <Link to="/skills" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <DynamicFormOutlinedIcon /> Skills
                 </Typography>
               </Link>
               <Link to="/blogs" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <CreateOutlinedIcon /> Blogs
                 </Typography>
               </Link>
               <Link to="/guest" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <CommentOutlinedIcon /> Guest
                 </Typography>
               </Link>
               <Link to="/contact" className="block">
-                <Typography variant="subtitle2" className="block pt-2">
+                <Typography variant="h2" className="block pt-2">
                   <PermContactCalendarOutlinedIcon />  Contact
                 </Typography>
               </Link>

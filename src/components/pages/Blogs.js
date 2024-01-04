@@ -8,8 +8,8 @@ const Blogs = () => {
       <h3 className='text-lg text-center pt-6 text-slate-600'>Where words weave the tapestry of thoughts, connecting minds across the digital landscape ❤️.</h3>
       <hr className='mt-6 pb-8' />
       <Blog/>
-      <div className="flex justify-center items-center mt-8 ">
-      <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-blue-50 via-red-100 to-yellow-100 p-4 shadow-md mx-4 md:mx-0">
+      <div className="flex justify-center  items-center mt-8 ">
+      <div className="w-full  max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-blue-50 via-red-100 to-yellow-100 p-4 shadow-md mx-4 md:mx-0">
         <div className="flex items-center space-x-2">
           <PushPinIcon className="text-gray-700" />
           <span className="font-semibold">Pinned</span>
