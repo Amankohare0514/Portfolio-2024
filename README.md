@@ -50,3 +50,7 @@ Welcome to my personal portfolio built with React. This portfolio showcases my s
 Open your browser and visit http://localhost:3000 .
 
 
+thanks see you soon 
+         by by............
+
+
