@@ -3,8 +3,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-
 export default function Contact() {
+    const resumeFileName = 'CV.pdf'
     return (
         <>
             <h1 className='text-3xl font-bold text-center pt-6'>Contact</h1>
@@ -31,18 +31,26 @@ export default function Contact() {
                             Ask me Anything <span className='font-bold pl-16 text-gray-500 hover:text-lime-400'><a href='https://github.com/Amankohare0514'>on GitHub</a></span>
                         </p>
                     </div>
-                    <br/>
+                    <br />
                     <div className="max-w-5xl h-[160px] p-6 border border-gray-200 hover:border-black rounded-lg flex items-center">
                         <div className="flex-grow mt-4">
                             <h2 className="text-2xl font-semibold mb-2">Aman Kohare</h2>
                             <p className="text-gray-700 mb-4">Front end  developer</p>
-                            <button className="mb-4 border h-10 w-28 hover:text-cyan-500 hover:bg-gray-100">Resume</button>
+                            <button className="mb-4 border h-10 w-28 hover:text-cyan-500 hover:bg-gray-100">
+                                <a
+                                     href="/CV.pdf"
+                                     download
+                                >
+                                    Resume
+                                </a>
+
+                            </button>
                         </div>
                         <div className="flex space-x-4">
-                        <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-600" /></a>
-                         <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'><LinkedInIcon className="text-gray-600" /></a>  
-                          <a href='https://www.instagram.com/aman__0514/'><InstagramIcon className="text-gray-600" /></a> 
-                          <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-600" /></a>
+                            <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-600" /></a>
+                            <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'><LinkedInIcon className="text-gray-600" /></a>
+                            <a href='https://www.instagram.com/aman__0514/'><InstagramIcon className="text-gray-600" /></a>
+                            <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-600" /></a>
                         </div>
                     </div>
                 </div>
