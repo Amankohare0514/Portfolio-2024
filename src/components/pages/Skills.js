@@ -54,7 +54,7 @@ const Skills = () => {
 
       {ProjectData.map((project, index) => (
         <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 items-center flex-col">
-          <Card className="w-full bg-white transition-transform transform hover:scale-95 cursor-pointer max-w-[1024px] md:w-[1024px] rounded-lg p-1 shadow-2xl mx-4 md:mx-0 hover:border-black">
+          <Card className="w-full bg-gray-200 transition-transform transform hover:scale-95 cursor-pointer max-w-[1024px] md:w-[1024px] rounded-lg p-1 shadow-2xl mx-4 md:mx-0 hover:border-black">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2 text-2xl font-bold text-center">
                 {project.icon} {project.title}

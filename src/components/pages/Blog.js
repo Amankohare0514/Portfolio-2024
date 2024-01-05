@@ -11,7 +11,7 @@ const Blog = () => {
     <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 mx-auto max-w-screen-lg">
         {BlogData.map((item, index) => (
-          <Card key={index} className="max-w-2xl transition-transform transform hover:scale-95 cursor-pointer w-full rounded-2xl">
+          <Card key={index} className="bg-cyan-100 max-w-2xl transition-transform transform hover:scale-95 cursor-pointer w-full rounded-2xl">
             <CardMedia
               component="img"
               alt="blog"

@@ -9,7 +9,7 @@ export default function About() {
       <h1 className='text-3xl font-bold text-center pt-6'>About me</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>👋 Hi there! I am Aman Koahre.</h3>
       <hr className='mt-6 pb-6' />
-      <Card sx={{ maxWidth: 1024, margin: 'auto', marginTop: 1, padding: { xs: 4, md: 8 } }}>
+      <Card sx={{ maxWidth: 1024, margin: 'auto', marginTop: 1 }}>
         <CardActionArea>
           <CardMedia
             component="img"

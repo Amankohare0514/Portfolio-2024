@@ -4,7 +4,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 export default function Contact() {
-    const resumeFileName = 'CV.pdf'
     return (
         <>
             <h1 className='text-3xl font-bold text-center pt-6'>Contact</h1>

@@ -21,10 +21,10 @@ function Intro() {
         <div className="flex items-center justify-between">
           <div className="flex space-x-4">
             <div>
-              <h1 className="text-5xl font-bold text-black" >Aman Kohare</h1>
-              <p className="text-2xl mt-4 text-gray-600" >Student • Front end Developer</p>
-              <p className="text-xl mt-2 text-gray-800">
-                I'm a Frontend developer in <span className="text-sky-500">India.</span>  <br />
+              <h1 className="text-5xl font-bold bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">Aman Kohare</h1>
+              <p className="text-2xl mt-4 bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">Student • Front end Developer</p>
+              <p className="text-xl mt-2 bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">
+                I'm a Frontend developer in <span className="text-sky-500">India.</span> <br />
                 I am creative and passionate about design and technology. <br />
               </p>
               <br />
@@ -52,12 +52,12 @@ function Intro() {
         </div>
       </div>
       <Skill />
-      <hr className='mt-6'/>
+      <hr className='mt-6' />
       <div className='mt-2 '>
-      <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
+        <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
         {ProjectData.map((project, index) => (
           <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 hover:border-black items-center flex-col">
-            <Card className="w-full bg-white transition-transform transform hover:scale-95 cursor-pointer hover:border-black max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">
+            <Card className="w-full bg-gray-200 transition-transform transform hover:scale-95 cursor-pointer hover:border-black max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2  text-2xl font-bold text-center">
                   {project.icon} {project.title}
@@ -70,12 +70,7 @@ function Intro() {
           </Link>
         ))}
       </div>
-      <hr className='mt-8'/>
-      <div className='mt-4 '>
-      <h1 className='text-3xl font-bold text-center pt-6 mb-8'>Posts</h1>
-      <Blog/>
-      <br/>
-      </div>
+      <hr className='mt-8' />
     </>
   );
 }

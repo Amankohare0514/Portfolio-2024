@@ -1,4 +1,3 @@
-// NavbarDark.js
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Logo from "./images/logo.png";
@@ -34,7 +33,7 @@ export function NavbarDark() {
   return (
     <Navbar
       variant="gradient"
-      className={`mx-auto ${darkMode ? 'bg-gray-800 text-white hover:text-white' : 'bg-slate-50 text-black'} md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl`}
+      className={`mx-auto ${darkMode ? 'bg-gray-800 text-white hover:text-white' : 'bg-cyan-100 text-black'} md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl`}
       style={{ marginTop: '1rem', backdropFilter: 'blur(8px)' }}
     >
       <div className="flex items-center justify-between w-full">

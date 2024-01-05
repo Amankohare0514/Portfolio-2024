@@ -1,9 +1,11 @@
 import React from 'react';
-import Card from '@mui/material/Card';
+import {
+  Card,
+  Typography,
+} from "@material-tailwind/react";
 import PushPinIcon from '@mui/icons-material/PushPin';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import dark from "../images/dark.png"
 import YouTube from "../images/youtube.png";
 import github from "../images/github.png";
@@ -68,38 +70,35 @@ const Projects = () => {
       <h1 className='text-3xl font-bold text-center pt-6'>My Projects</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
       <hr className='mt-6 pb-8' />
-
-      {/* Grid Container */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
-
         {Data.map((item, index) => (
-          <Card key={index} className="max-w-2xl  cursor-pointer w-full transition-transform transform hover:scale-95" style={{ maxWidth: '500px', width: '100%' }}>
-            <CardMedia
-              component="img"
-              alt="youtube clone"
-              height="140"
-              image={item.image}
-              className=' cursor-pointer'
-            />
-            <CardContent>
-              <hr className='mb-4  cursor-pointer mt-2' />
-              <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
-                {item.title}
-              </Typography>
-              <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.2rem' }}>
-                {item.description}
-              </Typography>
-            </CardContent>
-            <hr className='mb-4 mt-2' />
-            <a
-              href={item.link}
-              target="_blank"
-              rel="noopener"
-              className="flex items-center mb-6 justify-center bg-transparent text-black border h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
-            >
-              Link
-            </a>
-          </Card>
+         <Card key={index} className="bg-cyan-50 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
+         <CardMedia
+           component="img"
+           alt="youtube clone"
+           height="140"
+           image={item.image}
+           className='cursor-pointer'
+         />
+         <CardContent>
+           <hr className='mb-4 cursor-pointer mt-2' />
+           <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
+             {item.title}
+           </Typography>
+           <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.2rem' }}>
+             {item.description}
+           </Typography>
+         </CardContent>
+         <hr className='mb-4 mt-2' />
+         <a
+           href={item.link}
+           target="_blank"
+           rel="noopener"
+           className="flex items-center mb-6 justify-center bg-transparent text-black border h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
+         >
+           Link
+         </a>
+       </Card>
         ))}
       </div>
       <div className='flex ml-2 mb-8 mt-8  mr-2 justify-center items-center flex-col'>
