@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex justify-between items-center border-t  border-gray-200 py-4 mt-4">
-          <span className="text-gray-500"><a href='#'>© 2024 aman kohare</a></span>
+          <span className="text-gray-500 hover:text-black"><a href='#'>© 2024 aman kohare</a></span>
           <div className="flex space-x-4">
             <a className="text-gray-500 hover:text-gray-700" href="https://github.com/Amankohare0514">
               <GitHubIcon className="h-6 w-6" />

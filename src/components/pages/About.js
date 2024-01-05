@@ -1,26 +1,18 @@
 import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import { CardActionArea } from '@mui/material';
 import Logo from "../images/aman.jpg"
 export default function About() {
   return (
     <>
       <h1 className='text-3xl font-bold text-center pt-6'>About me</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>👋 Hi there! I am Aman Koahre.</h3>
-      <hr className='mt-6 pb-6' />
-      <Card sx={{ maxWidth: 1024, margin: 'auto', marginTop: 1 }}>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            height="300"
-            image={Logo}
-            alt="Aman Koahre"
-          />
-        </CardActionArea>
-        <hr />
-      </Card>
-      <div className='flex items-center justify-center'>
+      <hr className='mt-6 pb-6 border-gray-300' />
+      <img
+        src={Logo}
+        alt="Aman Koahre"
+        className="w-full h-auto mx-auto mt-1 max-h-300 border border-black lg:max-w-[990px]"
+      />
+      <hr />
+      <div className='flex items-center justify-center pt-6'>
         <div className='max-w-5xl w-[1024px] pl-4 pr-4 mx-auto border-none rounded-lg ml-auto'>
           <h1 className='text-3xl font-bold pt-4 pb-2'>WHO I AM</h1>
           <div className=' font-sans text-lg pt-4'> I'm a FrontEnd developer in<span className='text-cyan-500'> India. </span>  I am creative and passionate about design and technology

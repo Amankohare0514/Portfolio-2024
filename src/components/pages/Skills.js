@@ -22,7 +22,7 @@ const Skills = () => {
       {/* skills section */}
       <h1 className='text-3xl font-bold text-center pt-6'>My Skills</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>👍Mastery unfolds where skills meet dedication's embrace.</h3>
-      <hr className='mt-6 pb-6' />
+      <hr className='mt-6 pb-6 border-gray-300' />
       <div className="mx-auto w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] text-center">
         <div className="flex flex-wrap justify-center">
           {skillsList.map((skill, index) => (

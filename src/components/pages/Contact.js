@@ -8,7 +8,7 @@ export default function Contact() {
         <>
             <h1 className='text-3xl font-bold text-center pt-6'>Contact</h1>
             <h3 className='text-lg text-center pt-6 text-slate-600'>😊 I love it when you want to contact me</h3>
-            <hr className='mt-6 mb-8' />
+            <hr className='mt-6 mb-8 border-gray-300' />
             <div className="flex items-center justify-center">
                 <div className="max-w-5xl w-[1024px] pl-2 pr-2 mx-auto border-none rounded-lg ml-auto">
                     <p className="mb-6 text-xl text-gray-800">I'm always open to chat, so please don't hesitate to contact me!</p>

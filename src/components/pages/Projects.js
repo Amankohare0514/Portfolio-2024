@@ -69,7 +69,7 @@ const Projects = () => {
     <>
       <h1 className='text-3xl font-bold text-center pt-6'>My Projects</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
-      <hr className='mt-6 pb-8' />
+      <hr className='mt-6 pb-8 border-gray-300' />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
         {Data.map((item, index) => (
          <Card key={index} className="bg-cyan-50 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>

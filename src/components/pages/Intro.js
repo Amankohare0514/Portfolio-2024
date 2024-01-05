@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
-import Blog from './Blog';
+
 
 function Intro() {
   return (
@@ -21,18 +21,18 @@ function Intro() {
         <div className="flex items-center justify-between">
           <div className="flex space-x-4">
             <div>
-              <h1 className="text-5xl font-bold bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">Aman Kohare</h1>
-              <p className="text-2xl mt-4 bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">Student • Front end Developer</p>
-              <p className="text-xl mt-2 bg-gradient-to-r from-red-700 to-black text-transparent bg-clip-text">
+              <h1 className="text-5xl font-sans font-semibold bg-gradient-to-r from-cyan-900 to-red-600 text-transparent bg-clip-text">Aman Kohare</h1>
+              <p className="text-3xl font-sans font-semibold mt-4 bg-gradient-to-r from-cyan-900 to-red-600 text-transparent bg-clip-text">Front end Developer</p>
+              <p className="text-xl font-sans font-medium mt-2 bg-gradient-to-r from-cyan-900 to-red-600 text-transparent bg-clip-text">
                 I'm a Frontend developer in <span className="text-sky-500">India.</span> <br />
                 I am creative and passionate about design and technology. <br />
               </p>
               <br />
-              <div className="flex mt-6 space-x-3">
-                <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-800 w-8 h-8" /></a>
-                <a href='https://www.instagram.com/aman__0514/'> <InstagramIcon className="text-gray-800 w-8 h-8" /></a>
-                <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'> <LinkedInIcon className="text-gray-800 w-8 h-8" /></a>
-                <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-800 w-8 h-8" /></a>
+              <div className="flex mt-0 space-x-3">
+                <a href='https://github.com/Amankohare0514'> <GitHubIcon className="text-gray-500 hover:text-black w-8 h-8" /></a>
+                <a href='https://www.instagram.com/aman__0514/'> <InstagramIcon className="text-gray-500 hover:text-black w-8 h-8" /></a>
+                <a href='https://www.linkedin.com/in/aman-kohare-3a0678235/'> <LinkedInIcon className="text-gray-500 hover:text-black w-8 h-8" /></a>
+                <a href='https://twitter.com/Aman__0514'><TwitterIcon className="text-gray-500 hover:text-black w-8 h-8" /></a>
               </div>
             </div>
           </div>

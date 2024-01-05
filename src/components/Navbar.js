@@ -81,7 +81,7 @@ export function NavbarDark() {
               Contact
             </Typography>
           </Link>
-          <DarkModeToggle />
+          {/* <DarkModeToggle /> */}
         </div>
 
         {/* Mobile Menu Button */}
@@ -97,7 +97,7 @@ export function NavbarDark() {
 
           {isMenuOpen && (
             <div
-              className={`fixed top-12 right-6 h-[280px] w-[160px] shadow-md p-4 z-30 ${darkMode ? 'bg-gray-800 text-white' : 'bg-white text-black'
+              className={`fixed top-12 right-6 h-[280px] w-[160px] shadow-md p-4 z-30 ${darkMode ? 'bg-gray-800 text-white' : 'bg-cyan-100 text-black'
                 }`}
               onClick={closeMenu}
             >

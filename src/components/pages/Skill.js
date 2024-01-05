@@ -17,7 +17,7 @@ const Skill = () => {
                     {skills.map((skill, index) => (
                         <button
                             key={index}
-                            className="m-1 py-2 px-4 bg-transparent hover:bg-cyan-100 text-black font-semibold border border-blue-900 rounded-full"
+                            className="m-1 py-2 px-4 bg-transparent hover:border-black hover:bg-cyan-100 text-black font-semibold border border-blue-200 rounded-full"
                         >
                             {skill}
                         </button>

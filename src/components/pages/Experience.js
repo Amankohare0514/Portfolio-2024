@@ -5,7 +5,7 @@ import Education from "./Education"
     <>
      <h1 className='text-3xl font-bold text-center pt-6'>Experience</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>💥 Front-end specialist crafting visually appealing, responsive user interfaces.</h3>
-      <hr className='mt-6 pb-8' />
+      <hr className='mt-6 pb-8 border-gray-300' />
     <section className="p-8 bg-transparent mx-auto max-w-[1024px]">
       <div className="grid md:grid-cols-3 gap-8">
         <div>
