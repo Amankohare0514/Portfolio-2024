@@ -35,14 +35,8 @@ export default function Contact() {
                         <div className="flex-grow mt-4">
                             <h2 className="text-2xl font-semibold mb-2">Aman Kohare</h2>
                             <p className="text-gray-700 mb-4">Front end  developer</p>
-                            <button className="mb-4 border h-10 w-28 bg-gray-300 hover:bg-gray-600 hover:text-white" >
-                                <a
-                                     href="/CV.pdf"
-                                     download
-                                >
-                                    Resume
-                                </a>
-
+                            <button className="mb-4 border h-10 w-28 bg-gray-200 hover:bg-gray-600 hover:text-white" >
+                                <a href="/CV.pdf" download> Resume</a>
                             </button>
                         </div>
                         <div className="flex space-x-4">
