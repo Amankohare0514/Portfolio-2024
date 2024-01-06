@@ -31,11 +31,11 @@ export default function Contact() {
                         </p>
                     </div>
                     <br />
-                    <div className="max-w-5xl h-[160px] p-6 border border-gray-600 hover:border-black rounded-lg flex items-center">
+                    <div className="max-w-5xl h-[160px] p-6 border border-gray-300 hover:border-black rounded-lg flex items-center">
                         <div className="flex-grow mt-4">
                             <h2 className="text-2xl font-semibold mb-2">Aman Kohare</h2>
                             <p className="text-gray-700 mb-4">Front end  developer</p>
-                            <button className="mb-4 border h-10 w-28 hover:text-cyan-500 hover:bg-gray-100">
+                            <button className="mb-4 border h-10 w-28 bg-gray-300 hover:bg-gray-600 hover:text-white" >
                                 <a
                                      href="/CV.pdf"
                                      download

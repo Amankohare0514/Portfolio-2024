@@ -6,11 +6,13 @@ export default function About() {
       <h1 className='text-3xl font-bold text-center pt-6'>About me</h1>
       <h3 className='text-lg text-center pt-6 text-slate-600'>👋 Hi there! I am Aman Koahre.</h3>
       <hr className='mt-6 pb-6 border-gray-300' />
+      <div className='w-full h-auto mx-auto mt-1 max-h-300 border border-gray-400 lg:max-w-[990px]'>
       <img
         src={Logo}
         alt="Aman Koahre"
-        className="w-full h-auto mx-auto mt-1 max-h-300 border border-black lg:max-w-[990px]"
+        className="w-full h-auto mx-auto mt-2 mb-2 max-h-300 border border-white lg:max-w-[600px]"
       />
+      </div>
       <hr />
       <div className='flex items-center justify-center pt-6'>
         <div className='max-w-5xl w-[1024px] pl-4 pr-4 mx-auto border-none rounded-lg ml-auto'>

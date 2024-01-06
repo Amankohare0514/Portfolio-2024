@@ -19,7 +19,7 @@ const Blog = () => {
               image={item.image}
             />
             <CardContent>
-              <hr className='mb-4 mt-2' />
+              <hr className='mb-4 mt-2 border-gray-300' />
               <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }} className='text-2xl pb-2 text-black font-bold'>
                 {item.title}
               </Typography>

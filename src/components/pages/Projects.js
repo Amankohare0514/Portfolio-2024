@@ -17,37 +17,37 @@ import Quizy from "../images/Quizy.png"
 const Data = [
   {
     title: "Reform",
-    description: "Create and share forms easily with beautiful webflow prototype feature",
+    description: "Create and share beautiful forms easily with Webflow's user-friendly prototype feature. Craft professional designs effortlessly, making a lasting impression. Simplify your web design experience with Webflow – where simplicity meets sophistication.",
     link: "https://github.com/Amankohare0514/YourForm",
     image: reform
   },
   {
     title: "My Tube",
-    description: "Led the development of My_tube, an advanced YouTube clone.",
+    description: "Led the development of My_tube, an innovative YouTube clone. Spearheaded the creation of cutting-edge features, ensuring a seamless user experience and pushing the boundaries of online video platforms.",
     link: "https://github.com/Amankohare0514/my_tube",
     image: YouTube
   },
   {
     title: "Student Management System",
-    description: "Crafted a robust system for effortless control: read, update, delete with precision.",
+    description: "Engineered a resilient system for seamless control: effortlessly read, update, and delete with precision. Elevating operational efficiency while ensuring accuracy and ease of use.",
     link: "https://github.com/Amankohare0514/Student_Management-System",
     image: smsystem
   },
   {
     title: "Github Finder",
-    description: "GitHub Finder is a web application that allows users to search for GitHub accounts and repositories.",
+    description: "GitHub Finder, a web app, simplifies searching for GitHub accounts and repositories. Streamlined interface for user-friendly exploration of profiles and projects, enhancing the GitHub experience with efficiency and ease.",
     link: "https://github.com/Amankohare0514/Github-Finder-with-styling",
     image: github
   },
   {
     title: "SnAx DaRk ThEme",
-    description: "Dark theme which surpasses dark themes like ayu, dracula, night owl, etc.",
+    description: "Introducing a superior dark theme that outshines popular ones like ayu, dracula, night owl, etc. Elevate your visual experience with a sleek and sophisticated design, setting a new standard in dark theme aesthetics.",
     link: "https://marketplace.visualstudio.com/items?itemName=AmanKohare5.snax-dark-theme",
     image: dark
   },
   {
     title: "Right Draw",
-    description: "RightNowDraw , build with React library for creating whiteboards and other infinite canvas experiences.",
+    description: "Introducing RightNowDraw – constructed with the React library, this platform is designed for crafting whiteboards and infinite canvas experiences. Seamlessly unleash your creativity with an intuitive and dynamic React-powered framework.",
     link: "https://github.com/Amankohare0514/RightDraw",
     image: draw
   },
@@ -72,7 +72,7 @@ const Projects = () => {
       <hr className='mt-6 pb-8 border-gray-300' />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
         {Data.map((item, index) => (
-         <Card key={index} className="bg-cyan-50 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
+         <Card key={index} className="bg-cyan-100 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
          <CardMedia
            component="img"
            alt="youtube clone"
@@ -89,14 +89,14 @@ const Projects = () => {
              {item.description}
            </Typography>
          </CardContent>
-         <hr className='mb-4 mt-2' />
+         <hr className='mb-4 mt-2 border-gray-300' />
          <a
            href={item.link}
            target="_blank"
            rel="noopener"
-           className="flex items-center mb-6 justify-center bg-transparent text-black border h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
+           className="flex items-center mb-6 justify-center bg-cyan-200 text-black border-black h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
          >
-           Link
+           Repository
          </a>
        </Card>
         ))}
