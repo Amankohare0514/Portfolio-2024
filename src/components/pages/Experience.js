@@ -46,7 +46,7 @@ import Education from "./Education"
         </div>
         <div>
           <h3 className="text-xl font-semibold mb-2">
-            Web Developer Intern at CodeClause  – Intern - Pune ,India
+            Web Developer at CodeClause  – Intern - Pune ,India
           </h3>
           <p className="text-gray-600 mb-4">April 2023 – July 2023</p>
           <ul className="list-disc pl-5 space-y-2">
