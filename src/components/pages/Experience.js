@@ -69,7 +69,7 @@ import Education from "./Education"
         </div>
       </div>
     </section>
-    <hr className="bg-gray-500"/>
+    <hr className="bg-gray-600"/>
     <Education/>
     </>
   )

@@ -10,8 +10,9 @@ export default function About() {
       <img
         src={Logo}
         alt="Aman Koahre"
-        className="w-full h-auto mx-auto mt-2 mb-2 max-h-300 border border-white lg:max-w-[600px]"
+        className="w-full h-auto mx-auto mt-2 mb-2 max-h-300 border border-gray-500 lg:max-w-[600px]"
       />
+      <h5 className='text-center text-gray-700 font-mono'>“Study nature, love nature, stay close to nature. It will never fail you.”</h5>
       </div>
       <hr />
       <div className='flex items-center justify-center pt-6'>
