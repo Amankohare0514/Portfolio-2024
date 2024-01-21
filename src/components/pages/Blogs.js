@@ -15,9 +15,9 @@ const Blogs = () => {
           <span className="font-semibold">Pinned</span>
         </div>
         <p className="mt-2 text-gray-700">
-          Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is 
+          Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is {" "}
           <a className="text-blue-600 hover:underline" href="https://medium.com/@amankohare">
-            , link
+            link
           </a>
         </p>
       </div>

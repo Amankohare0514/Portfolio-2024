@@ -28,7 +28,7 @@ const Skills = () => {
           {skillsList.map((skill, index) => (
             <button
               key={index}
-              className="m-1 py-2 px-4 bg-transparent hover:bg-cyan-100 text-black font-semibold border border-blue-900 rounded-full"
+              className="m-1 py-2 px-4 bg-transparent hover:bg-cyan-100 text-black font-semibold border hover:border-black border-blue-200 rounded-full"
             >
               {skill}
             </button>
@@ -44,9 +44,9 @@ const Skills = () => {
             <span className="font-semibold">Pinned</span>
           </div>
           <p className="mt-2 text-gray-700">
-            Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is
+            Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is {" "}
             <a className="text-blue-600 hover:underline" href="https://medium.com/@amankohare">
-              , link
+              link
             </a>
           </p>
         </div>

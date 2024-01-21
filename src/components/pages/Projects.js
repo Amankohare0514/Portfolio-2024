@@ -109,7 +109,7 @@ const Projects = () => {
           </div>
           <h6 className="mt-2 text-gray-700">
             Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
-            <a className='text-black' href='https://github.com/Amankohare0514'> here</a>
+            <a className='text-blue-600' href='https://github.com/Amankohare0514'> here</a>
           </h6>
         </div>
       </div>
