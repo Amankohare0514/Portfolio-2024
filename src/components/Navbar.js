@@ -9,14 +9,10 @@ import DynamicFormOutlinedIcon from '@mui/icons-material/DynamicFormOutlined';
 import EarbudsBatteryOutlinedIcon from '@mui/icons-material/EarbudsBatteryOutlined';
 import BeenhereOutlinedIcon from '@mui/icons-material/BeenhereOutlined';
 import { useDarkMode } from './pages/DarkModeContext';
-import DarkModeToggle from "./pages/DarkModeToggle";
-
-import {
-  Navbar,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import {Navbar,Typography,IconButton,} from "@material-tailwind/react";
 import { MenuIcon } from "@heroicons/react/outline";
+
 
 export function NavbarDark() {
   const { darkMode } = useDarkMode();
@@ -33,7 +29,7 @@ export function NavbarDark() {
   return (
     <Navbar
       variant="gradient"
-      className={`mx-auto ${darkMode ? 'bg-gray-800 text-white hover:text-white' : 'bg-cyan-100 text-black'} md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl`}
+      className={`mx-auto ${darkMode ? 'bg-gray-800 text-white hover:text-white' : 'bg-cyan-200 text-black'} md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl`}
       style={{ marginTop: '1rem', backdropFilter: 'blur(8px)' }}
     >
       <div className="flex items-center justify-between w-full">
@@ -47,38 +43,38 @@ export function NavbarDark() {
 
         <div className="hidden md:flex gap-7 text-slate-500 font-medium">
           <Link to="/about">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              About
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="About">
+              <Person2OutlinedIcon />
             </Typography>
           </Link>
           <Link to="/projects">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Projects
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="projects">
+            <BeenhereOutlinedIcon /> 
             </Typography>
           </Link>
           <Link to="/experience">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Experience
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="experience">
+            <EarbudsBatteryOutlinedIcon />
             </Typography>
           </Link>
           <Link to="/skills">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Skills
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="skills">
+            <DynamicFormOutlinedIcon /> 
             </Typography>
           </Link>
           <Link to="/blogs">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Blogs
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="blogs">
+            <CreateOutlinedIcon />
             </Typography>
           </Link>
           <Link to="/guest">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Guest
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="guestbook">
+            <CommentOutlinedIcon />
             </Typography>
           </Link>
           <Link to="/contact">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900">
-              Contact
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="contact">
+            <PermContactCalendarOutlinedIcon />
             </Typography>
           </Link>
           {/* <DarkModeToggle /> */}
