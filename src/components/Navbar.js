@@ -93,43 +93,43 @@ export function NavbarDark() {
 
           {isMenuOpen && (
             <div
-              className={`fixed top-12 right-6 h-[280px] w-[160px] shadow-md p-4 z-30 ${darkMode ? 'bg-gray-800 text-white' : 'bg-cyan-100 text-black'
+              className={`fixed top-12 right-6 h-[280px] w-[160px] shadow-md p-4 z-30 ${darkMode ? 'bg-gray-800 text-white' : 'bg-gray-950 text-gray-100'
                 }`}
               onClick={closeMenu}
             >
               <Link to="/about" className="block">
                 <Typography variant="h2" className="block pt-2 justify-center">
-                  <InfoOutlinedIcon /> About
+                  <InfoOutlinedIcon className="mr-2" /> About
                 </Typography>
               </Link>
               <Link to="/projects" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <BeenhereOutlinedIcon />  Projects
+                  <BeenhereOutlinedIcon className="mr-2"/>  Projects
                 </Typography>
               </Link>
               <Link to="/experience" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <EarbudsBatteryOutlinedIcon />  Experience
+                  <EarbudsBatteryOutlinedIcon className="mr-2"/>  Experience
                 </Typography>
               </Link>
               <Link to="/skills" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <DynamicFormOutlinedIcon /> Skills
+                  <DynamicFormOutlinedIcon className="mr-2"/> Skills
                 </Typography>
               </Link>
               <Link to="/blogs" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <CreateOutlinedIcon /> Blogs
+                  <CreateOutlinedIcon className="mr-2"/> Blogs
                 </Typography>
               </Link>
               <Link to="/guest" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <CommentOutlinedIcon /> Guest
+                  <CommentOutlinedIcon className="mr-2"/> Guest
                 </Typography>
               </Link>
               <Link to="/contact" className="block">
                 <Typography variant="h2" className="block pt-2">
-                  <PermContactCalendarOutlinedIcon />  Contact
+                  <PermContactCalendarOutlinedIcon className="mr-2"/>  Contact
                 </Typography>
               </Link>
             </div>
