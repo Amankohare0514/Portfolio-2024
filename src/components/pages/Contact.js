@@ -26,7 +26,7 @@ export default function Contact() {
                             Medium <span className='font-bold pl-20 text-gray-500 hover:text-lime-800'><a href='https://medium.com/@amankohare'>amankohare0514</a></span>
                         </p>
                         <p className='pt-1'>
-                            Ask me Anything <span className='font-bold pl-16 text-gray-500 hover:text-lime-400'><a href='https://github.com/Amankohare0514'>on GitHub</a></span>
+                            Ask me Anything <span className='font-bold pl-16 text-gray-500 hover:text-lime-400'><a href='https://wa.link/qyhnn5'>on Whatsapp</a></span>
                         </p>
                     </div>
                     <br />
