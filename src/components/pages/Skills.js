@@ -19,33 +19,31 @@ const Skills = () => {
 
   return (
     <>
-      {/* skills section */}
-      <h1 className='text-3xl font-bold text-center pt-6'>My Skills</h1>
-      <h3 className='text-lg text-center pt-6 text-slate-600'>👍Mastery unfolds where skills meet dedication's embrace.</h3>
-      <hr className='mt-6 pb-6 border-gray-300' />
+      <h1 className='text-3xl font-bold text-center pt-6 text-gray-400'>My Skills</h1>
+      <h3 className='text-lg text-center pt-6 text-slate-400 pb-6'>👍Mastery unfolds where skills meet dedication's embrace.</h3>
       <div className="mx-auto w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%] text-center">
         <div className="flex flex-wrap justify-center">
           {skillsList.map((skill, index) => (
             <button
               key={index}
-              className="m-1 py-2 px-4 bg-transparent hover:bg-cyan-100 text-black font-semibold border hover:border-black border-blue-200 rounded-full"
+              className="m-1 py-2 px-4 bg-transparent hover:bg-cyan-100 hover:text-black text-gray-400 font-semibold border hover:border-gray-900 border-gray-800 rounded-full"
             >
               {skill}
             </button>
           ))}
         </div>
       </div>
-      <hr className='mt-6 pb-6' />
+     
       {/* ProjectData section */}
-      <div className='flex ml-2  mr-2 justify-center items-center flex-col'>
-        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-cyan-50 via-gray-100 to-gray-200  p-4 shadow-xl mx-4 md:mx-0">
+      <div className='flex mt-8 ml-2  mr-2 justify-center items-center flex-col'>
+        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gray-900 text-white  p-4 shadow-xl mx-4 md:mx-0">
           <div className="flex items-center space-x-2">
-            <PushPinIcon className="text-gray-700" />
+            <PushPinIcon className="text-white" />
             <span className="font-semibold">Pinned</span>
           </div>
-          <p className="mt-2 text-gray-700">
+          <p className="mt-2 text-gray-400">
             Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is {" "}
-            <a className="text-blue-600 hover:underline" href="https://medium.com/@amankohare">
+            <a className="text-gray-300 hover:underline" href="https://medium.com/@amankohare">
               link
             </a>
           </p>
@@ -54,7 +52,7 @@ const Skills = () => {
 
       {ProjectData.map((project, index) => (
         <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 items-center flex-col">
-          <Card className="w-full bg-gray-200 transition-transform transform hover:scale-95 cursor-pointer max-w-[1024px] md:w-[1024px] rounded-lg p-1 shadow-2xl mx-4 md:mx-0 hover:border-black">
+          <Card className="w-full bg-zinc-950 text-gray-600 hover:text-gray-400 transition-transform transform hover:scale-95 cursor-pointer max-w-[1024px] md:w-[1024px] rounded-lg p-1 shadow-2xl mx-4 md:mx-0 hover:border-gray-800">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2 text-2xl font-bold text-center">
                 {project.icon} {project.title}

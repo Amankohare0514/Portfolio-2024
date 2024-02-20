@@ -29,7 +29,7 @@ export function NavbarDark() {
   return (
     <Navbar
       variant="gradient"
-      className={`mx-auto ${darkMode ? 'bg-gray-800 text-white hover:text-white' : 'bg-cyan-200 text-black'} md:max-w-screen-lg md:px-8 lg:px-12 xl:px-20 py-3 rounded-2xl`}
+      className={`mx-auto ${darkMode ? 'text-white  hover:text-white' : 'bg-black text-black'} md:max-w-screen-lg md:px-8 border-gray-800 lg:px-12 xl:px-20 py-3 rounded-2xl`}
       style={{ marginTop: '1rem', backdropFilter: 'blur(8px)' }}
     >
       <div className="flex items-center justify-between w-full">
@@ -84,11 +84,11 @@ export function NavbarDark() {
         <div className="md:hidden">
           <IconButton
             variant="text"
-            color={darkMode ? "white" : "black"}
-            className="pr-6"
+            color="white"
+            className="pr-6 text-white"
             onClick={toggleMenu}
           >
-            <MenuIcon className={`h-6 w-6 ${darkMode ? 'text-white' : 'text-black'}`} />
+            <MenuIcon className="h-8 w-8 text-white" />
           </IconButton>
 
           {isMenuOpen && (

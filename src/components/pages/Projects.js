@@ -67,12 +67,11 @@ const Data = [
 const Projects = () => {
   return (
     <>
-      <h1 className='text-3xl font-bold text-center pt-6'>My Projects</h1>
-      <h3 className='text-lg text-center pt-6 text-slate-600'>The list of my projects. Everything was made with ❤️.</h3>
-      <hr className='mt-6 pb-8 border-gray-300' />
+      <h1 className='text-3xl font-bold text-center pt-6 text-gray-400'>My Projects</h1>
+      <h3 className='text-lg text-center pt-6 text-slate-400 mb-12'>The list of my projects. Everything was made with ❤️.</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
         {Data.map((item, index) => (
-         <Card key={index} className="bg-cyan-100 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
+         <Card key={index} className="bg-gray-800 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
          <CardMedia
            component="img"
            alt="youtube clone"
@@ -81,15 +80,14 @@ const Projects = () => {
            className='cursor-pointer'
          />
          <CardContent>
-           <hr className='mb-4 cursor-pointer mt-2' />
-           <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }}>
+           <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold'  }} color='white' >
              {item.title}
            </Typography>
-           <Typography variant="body2" color="text.secondary" sx={{ fontSize: '1.2rem' }}>
+           <Typography variant="body2" color="cyan" sx={{ fontSize: '1.2rem' }} >
              {item.description}
            </Typography>
          </CardContent>
-         <hr className='mb-4 mt-2 border-gray-300' />
+         
          <a
            href={item.link}
            target="_blank"
@@ -102,14 +100,14 @@ const Projects = () => {
         ))}
       </div>
       <div className='flex ml-2 mb-8 mt-8  mr-2 justify-center items-center flex-col'>
-        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gradient-to-r from-cyan-50 via-gray-100 to-gray-200 p-4 shadow-xl mx-4 md:mx-0">
+        <div className="w-full max-w-[1024px] md:w-[1024px] rounded-lg bg-gray-900 text-white p-4 shadow-xl mx-4 md:mx-0">
           <div className="flex items-center space-x-2">
-            <PushPinIcon className="text-gray-700" />
+            <PushPinIcon className="text-white" />
             <span className="font-semibold">Pinned</span>
           </div>
-          <h6 className="mt-2 text-gray-700">
+          <h6 className="mt-2 text-gray-400">
             Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
-            <a className='text-blue-600' href='https://github.com/Amankohare0514'> here</a>
+            <a className='text-gray-300' href='https://github.com/Amankohare0514'> here</a>
           </h6>
         </div>
       </div>

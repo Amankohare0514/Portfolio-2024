@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="py-8">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="flex justify-between items-center mt-4 border-t border-gray-200 pt-8">
+        <div className="flex justify-between items-center mt-4 border-t border-gray-900 pt-8">
           <div className="flex flex-col font-semibold space-y-2">
             <Link to="/" className="text-gray-500 hover:text-gray-700"> Home</Link>
             <Link to="/about" className="text-gray-500 hover:text-gray-700"> About</Link>
@@ -37,8 +37,8 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex justify-between items-center border-t  border-gray-200 py-4 mt-4">
-          <span className="text-gray-500 hover:text-black"><a href='#'>© 2024 aman kohare</a></span>
+        <div className="flex justify-between items-center border-t  border-gray-900 py-4 mt-4">
+          <span className="text-gray-500 hover:text-white"><a href='#'>© 2024 aman kohare</a></span>
           <div className="flex space-x-4">
             <a className="text-gray-500 hover:text-gray-700" href="https://github.com/Amankohare0514">
               <GitHubIcon className="h-6 w-6" />
