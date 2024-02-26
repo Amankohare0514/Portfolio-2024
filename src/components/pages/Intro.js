@@ -56,7 +56,7 @@ function Intro() {
         <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
         {ProjectData.map((project, index) => (
           <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 hover:border-gray-800 items-center flex-col">
-            <Card className="w-full bg-zinc-950 text-gray-600 hover:text-gray-400 transition-transform transform hover:scale-95 cursor-pointer  max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">
+            <Card className="border-gray-700 w-full bg-zinc-950 text-gray-600 hover:text-gray-400 transition-transform transform hover:scale-95 cursor-pointer  max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2  text-2xl font-bold text-center">
                   {project.icon} {project.title}
