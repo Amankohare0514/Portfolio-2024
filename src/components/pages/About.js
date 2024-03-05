@@ -15,7 +15,7 @@ export default function About() {
       <div className='flex items-center justify-center pt-6 text-gray-400'>
         <div className='max-w-5xl w-[1024px] pl-4 pr-4 mx-auto border-none rounded-lg ml-auto'>
           <h1 className='text-3xl font-bold pt-4 pb-2'>WHO I AM</h1>
-          <div className=' font-sans text-lg pt-4'> I'm a FrontEnd developer in<span className='text-cyan-500'> India. </span>  I am creative and passionate about design and technology
+          <div className=' font-sans text-lg pt-4'> I'm a FrontEnd developer in<span className='text-sky-600'> India. </span>  I am creative and passionate about design and technology
             so I always try to craft great-looking software products. Pursuing a Bachelor of Technology (B.Tech)
             in Information Technology from Barkatullah University, Bhopal.<br /> <br />
             Programming Journey: I'm a self-taught programmer on a quest to explore the exciting world of technology.

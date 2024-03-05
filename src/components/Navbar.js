@@ -9,7 +9,6 @@ import DynamicFormOutlinedIcon from '@mui/icons-material/DynamicFormOutlined';
 import EarbudsBatteryOutlinedIcon from '@mui/icons-material/EarbudsBatteryOutlined';
 import BeenhereOutlinedIcon from '@mui/icons-material/BeenhereOutlined';
 import { useDarkMode } from './pages/DarkModeContext';
-import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
 import {Navbar,Typography,IconButton,} from "@material-tailwind/react";
 import { MenuIcon } from "@heroicons/react/outline";
 
@@ -41,40 +40,40 @@ export function NavbarDark() {
           />
         </Link>
 
-        <div className="hidden md:flex gap-7 text-slate-500 font-medium">
+        <div className="hidden md:flex gap-7 text-slate-400 font-medium">
           <Link to="/about">
-            <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="About">
-              <Person2OutlinedIcon className="hover:text-white" />
+            <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="About">
+             About
             </Typography>
           </Link>
           <Link to="/projects">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="projects">
-            <BeenhereOutlinedIcon className="hover:text-white"/> 
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="projects">
+          Projects
             </Typography>
           </Link>
           <Link to="/experience">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="experience">
-            <EarbudsBatteryOutlinedIcon className="hover:text-white" />
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="experience">
+          Experience
             </Typography>
           </Link>
           <Link to="/skills">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="skills">
-            <DynamicFormOutlinedIcon className="hover:text-white"/> 
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="skills">
+          Skills 
             </Typography>
           </Link>
           <Link to="/blogs">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="blogs">
-            <CreateOutlinedIcon className="hover:text-white"/>
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="blogs">
+          Blogs
             </Typography>
           </Link>
           <Link to="/guest">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="guestbook">
-            <CommentOutlinedIcon className="hover:text-white"/>
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="guestbook">
+          Guestbook
             </Typography>
           </Link>
           <Link to="/contact">
-          <Typography variant="h2" className="cursor-pointer hover:text-slate-900" title="contact">
-            <PermContactCalendarOutlinedIcon className="hover:text-white"/>
+          <Typography variant="h2" className="cursor-pointer hover:text-slate-100" title="contact">
+          Contact
             </Typography>
           </Link>
          
