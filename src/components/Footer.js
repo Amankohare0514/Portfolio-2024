@@ -11,16 +11,16 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center mt-4 border-t border-gray-900 pt-8">
           <div className="flex flex-col font-semibold space-y-2">
-            <Link to="/" className="text-gray-500 hover:text-gray-700"> Home</Link>
-            <Link to="/about" className="text-gray-500 hover:text-gray-700"> About</Link>
-            <Link to="/projects" className="text-gray-500 hover:text-gray-700"> Project</Link>
-            <Link to="/experience" className="text-gray-500 hover:text-gray-700"> Experience</Link>
+            <a href="/" className="text-gray-500 hover:text-gray-700"> Home</a>
+            <a href='/about'  className="text-gray-500 hover:text-gray-700"> About</a>
+            <a href="/projects" className="text-gray-500 hover:text-gray-700"> Project</a>
+            <a href="/experience" className="text-gray-500 hover:text-gray-700"> Experience</a>
           </div>
           <div className="flex flex-col font-semibold space-y-2">
-            <Link to="/skills" className="text-gray-500 hover:text-gray-700"> Skills</Link>
-            <Link to="/blogs" className="text-gray-500 hover:text-gray-700"> Blogs</Link>
-            <Link to="/guest" className="text-gray-500 hover:text-gray-700"> Guest</Link>
-            <Link to="/contact" className="text-gray-500 hover:text-gray-700"> Contact</Link>
+            <a href="/skills" className="text-gray-500 hover:text-gray-700"> Skills</a>
+            <a href="/blogs" className="text-gray-500 hover:text-gray-700"> Blogs</a>
+            <a href="/guest" className="text-gray-500 hover:text-gray-700"> Guest</a>
+            <a href="/contact" className="text-gray-500 hover:text-gray-700"> Contact</a>
           </div>
           <div className="flex flex-col font-semibold space-y-2">
             <a className="text-gray-500 hover:text-gray-700" href="https://github.com/Amankohare0514/Portfolio-2024">
