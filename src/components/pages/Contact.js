@@ -35,7 +35,7 @@ export default function Contact() {
                             <h2 className="text-2xl font-semibold mb-2 text-gray-200">Aman Kohare</h2>
                             <p className="text-gray-400 mb-4">Front end  developer</p>
                             <button className="mb-4  h-10 w-28 bg-gray-900 text-gray-300 hover:bg-gray-600 hover:text-white" >
-                                <a href="/CV.pdf" download> Resume</a>
+                                <a href="/resume-aman.pdf" download> Resume</a>
                             </button>
                         </div>
                         <div className="flex space-x-4">
