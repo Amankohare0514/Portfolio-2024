@@ -82,7 +82,7 @@ const Projects = () => {
            <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 'bold'  }} color='white' >
              {item.title}
            </Typography>
-           <Typography variant="body2" color="white" sx={{ fontSize: '1.2rem' }} className='mt-2' >
+           <Typography variant="h6" color="gray" sx={{ fontSize: '1.2rem' }} className='mt-2' >
              {item.description}
            </Typography>
          </CardContent>

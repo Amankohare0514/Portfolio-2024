@@ -20,10 +20,9 @@ function Intro() {
         <div className="flex items-center justify-between">
           <div className="flex space-x-4">
             <div>
-              <h1 className="text-5xl font-sans font-semibold bg-gradient-to-r from-cyan-500 to-red-500 text-transparent bg-clip-text">Aman Kohare</h1>
-              <p className="text-3xl font-sans font-semibold mt-4 bg-gradient-to-r from-cyan-700 to-red-600 text-transparent bg-clip-text">Front end Developer</p>
+              <h1 className="text-5xl font-sans font-semibold bg-gradient-to-r from-cyan-500 to-red-600 text-transparent bg-clip-text">Aman Kohare</h1>
+              <p className="text-3xl font-sans font-semibold mt-4 bg-gradient-to-r from-cyan-700 to-red-600 text-transparent bg-clip-text">Mern stack developer in <span className="text-sky-500">India.</span></p>
               <p className="text-xl font-sans font-medium mt-2 bg-gradient-to-r from-cyan-700 to-red-600 text-transparent bg-clip-text">
-                I'm a Frontend developer in <span className="text-sky-500">India.</span> <br />
                 I am creative and passionate about design and technology. <br />
               </p>
               <br />
