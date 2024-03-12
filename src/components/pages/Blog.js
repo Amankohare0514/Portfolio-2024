@@ -11,7 +11,7 @@ const Blog = () => {
     <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-10 mx-auto max-w-screen-lg">
         {BlogData.map((item, index) => (
-          <Card key={index} className="bg-gray-800 max-w-2xl transition-transform transform hover:scale-95 cursor-pointer w-full rounded-2xl">
+          <Card key={index} className="bg-transparent max-w-2xl transition-transform transform hover:scale-95 cursor-pointer w-full rounded-2xl">
             <CardMedia
               component="img"
               alt="blog"
@@ -23,7 +23,7 @@ const Blog = () => {
               <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold' }} className='text-2xl pb-2 text-white font-bold'>
                 {item.title}
               </Typography>
-              <Typography variant="h6"  sx={{ fontSize: '1.2rem' }} color='cyan'>
+              <Typography variant="h6"  sx={{ fontSize: '1.2rem' }} color='white'>
                 {item.description}
               </Typography>
             </CardContent>

@@ -71,19 +71,18 @@ const Projects = () => {
       <h3 className='text-lg text-center pt-6 text-slate-400 mb-12'>The list of my projects. Everything was made with ❤️.</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
         {Data.map((item, index) => (
-         <Card key={index} className="bg-gray-800 max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
+         <Card key={index} className="bg-transparent hover:border max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
          <CardMedia
            component="img"
            alt="youtube clone"
-           height="140"
            image={item.image}
            className='cursor-pointer'
          />
          <CardContent>
-           <Typography gutterBottom variant="h5" component="div" sx={{ fontWeight: 'bold'  }} color='white' >
+           <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 'bold'  }} color='white' >
              {item.title}
            </Typography>
-           <Typography variant="body2" color="cyan" sx={{ fontSize: '1.2rem' }} >
+           <Typography variant="body2" color="white" sx={{ fontSize: '1.2rem' }} className='mt-2' >
              {item.description}
            </Typography>
          </CardContent>
@@ -92,7 +91,7 @@ const Projects = () => {
            href={item.link}
            target="_blank"
            rel="noopener"
-           className="flex items-center mb-6 justify-center bg-cyan-200 text-black border-black h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
+           className="flex items-center mb-6 justify-center border bg-transparent  text-gray-200 hover:text-black  h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
          >
            Repository
          </a>
