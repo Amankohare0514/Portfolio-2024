@@ -71,31 +71,31 @@ const Projects = () => {
       <h3 className='text-lg text-center pt-6 text-slate-400 mb-12'>The list of my projects. Everything was made with ❤️.</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4 mx-auto max-w-screen-lg">
         {Data.map((item, index) => (
-         <Card key={index} className="bg-transparent hover:border max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
-         <CardMedia
-           component="img"
-           alt="youtube clone"
-           image={item.image}
-           className='cursor-pointer'
-         />
-         <CardContent>
-           <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 'bold'  }} color='white' >
-             {item.title}
-           </Typography>
-           <Typography variant="h6" color="gray" sx={{ fontSize: '1.2rem' }} className='mt-2' >
-             {item.description}
-           </Typography>
-         </CardContent>
-         
-         <a
-           href={item.link}
-           target="_blank"
-           rel="noopener"
-           className="flex items-center mb-6 justify-center border bg-transparent  text-gray-200 hover:text-black  h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
-         >
-           Repository
-         </a>
-       </Card>
+          <Card key={index} className="bg-transparent hover:border-gray-500 hover:border max-w-2xl cursor-pointer w-full transition-transform transform hover:scale-95 " style={{ maxWidth: '500px', width: '100%' }}>
+            <CardMedia
+              component="img"
+              alt="youtube clone"
+              image={item.image}
+              className='cursor-pointer'
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 'bold' }} color='white' >
+                {item.title}
+              </Typography>
+              <Typography variant="h6" color="gray" sx={{ fontSize: '1.2rem' }} className='mt-2' >
+                {item.description}
+              </Typography>
+            </CardContent>
+
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener"
+              className="flex items-center mb-6 justify-center border bg-transparent  text-gray-200 hover:text-black  h-10 w-32 rounded-full mt-1 mx-auto hover:bg-slate-100"
+            >
+              Repository
+            </a>
+          </Card>
         ))}
       </div>
       <div className='flex ml-2 mb-8 mt-8  mr-2 justify-center items-center flex-col'>
@@ -105,7 +105,7 @@ const Projects = () => {
             <span className="font-semibold">Pinned</span>
           </div>
           <h6 className="mt-2 text-gray-400">
-            Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is 
+            Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is
             <a className='text-gray-300' href='https://github.com/Amankohare0514'> here</a>
           </h6>
         </div>

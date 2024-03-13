@@ -52,7 +52,7 @@ function Intro() {
       <Skill />
      
       <div className='mt-2 '>
-        <h1 className='text-3xl font-bold text-center pt-6'>Projects</h1>
+        <h1 className='text-3xl font-bold text-center pt-12 text-gray-300'>Projects</h1>
         {ProjectData.map((project, index) => (
           <Link to={project.link} key={index} className="flex ml-2 mr-2 justify-center mt-5 hover:border-gray-800 items-center flex-col">
             <Card className="border-gray-700 w-full bg-zinc-950 text-gray-400 hover:text-gray-200 transition-transform transform hover:scale-95 cursor-pointer  max-w-[1024px] md:w-[1024px] rounded-lg  p-1 shadow-2xl mx-4 md:mx-0">

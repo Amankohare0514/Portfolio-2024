@@ -11,7 +11,7 @@ const Skill = () => {
     return (
         <>
      
-         <h1 className='text-3xl font-bold text-center pb-4'>Skills</h1>
+         <h1 className='text-3xl font-bold text-center pb-4 text-gray-300'>Skills</h1>
             <div className="mx-auto w-full sm:w-[90%] md:w-[80%] lg:w-[70%] xl:w-[60%]">
                 <div className="flex flex-wrap justify-center">
                     {skills.map((skill, index) => (
