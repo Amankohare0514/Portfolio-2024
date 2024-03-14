@@ -16,7 +16,7 @@ const Blogs = () => {
           <p className="mt-2 text-gray-400">
             Hey there! You can check out more blog created by me by visiting my Medium profile. Thanks and here is {" "}
             <a className="text-gray-500 hover:underline" href="https://medium.com/@amankohare">
-              link
+              Medium
             </a>
           </p>
         </div>

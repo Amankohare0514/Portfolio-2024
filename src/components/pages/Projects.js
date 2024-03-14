@@ -106,7 +106,7 @@ const Projects = () => {
           </div>
           <h6 className="mt-2 text-gray-400">
             Hey there! Hey there! You can check out more projects developed by me by visiting my GitHub profile. Thanks and here is
-            <a className='text-gray-300' href='https://github.com/Amankohare0514'> here</a>
+            <a className='text-gray-300' href='https://github.com/Amankohare0514'> github</a>
           </h6>
         </div>
       </div>
